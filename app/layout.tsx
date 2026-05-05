@@ -90,6 +90,13 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning className={`${playfairDisplay.variable} ${dmSans.variable} ${dmMono.variable}`}>
       <head>
+        {/* Favicon */}
+        <link rel="icon" href="/generate_a_high_quality_favicon_202605051045-removebg-preview.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="/generate_a_high_quality_favicon_202605051045-removebg-preview.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="/generate_a_high_quality_favicon_202605051045-removebg-preview.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="/generate_a_high_quality_favicon_202605051045-removebg-preview.png" />
+        <link rel="manifest" href="/site.webmanifest" />
+        <meta name="theme-color" content="#0a1628" />
         {/* Preconnect for Google Fonts */}
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
