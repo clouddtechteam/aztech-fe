@@ -170,6 +170,15 @@ export function ContactSection() {
                   </address>
                 </a>
                 
+                <a href="https://maps.google.com/?q=Warehouse+55,+Al+Quoz+Industrial+Area+3,+Dubai" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+                  <MapPin className="w-[18px] h-[18px] text-[var(--accent-mid)] mt-1 shrink-0" aria-hidden="true" />
+                  <address className="font-sans text-[0.9rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
+                    Branch Office - Warehouse 55,<br />
+                    Alquoz Industrial Area 3,<br />
+                    Dubai
+                  </address>
+                </a>
+                
                 <a href="tel:+917356780866" className="flex items-center gap-3 group">
                   <Phone className="w-[18px] h-[18px] text-[var(--accent-mid)] shrink-0" aria-hidden="true" />
                   <span className="font-sans text-[0.9rem] text-[var(--text-body)] group-hover:text-[var(--accent)] transition-colors">

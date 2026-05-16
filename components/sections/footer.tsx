@@ -145,6 +145,11 @@ export function Footer() {
                 SEBASTIAN ROAD, KALOOR,<br />
                 KOCHIN 682017
               </address>
+              <address className="not-italic font-sans text-[0.82rem] text-[var(--text-secondary)] leading-[1.7] mb-4">
+                Branch Office - Warehouse 55,<br />
+                Alquoz Industrial Area 3,<br />
+                Dubai
+              </address>
               <p className="font-sans text-[0.82rem] text-[var(--text-secondary)] mb-4">
                 Mon–Sat: 8:00 AM – 6:00 PM
               </p>
