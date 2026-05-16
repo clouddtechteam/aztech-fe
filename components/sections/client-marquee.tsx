@@ -75,7 +75,7 @@ export function ClientMarquee() {
       aria-label="Trusted by leading brands"
     >
       <div className="text-center mb-7">
-        <p className="font-sans text-[0.72rem] font-medium tracking-[0.18em] uppercase text-[var(--text-muted)]">
+        <p className="font-sans text-[0.9rem] font-bold tracking-[0.15em] uppercase text-[var(--text-muted)]">
           TRUSTED BY UAE&apos;S LEADING BRANDS
         </p>
       </div>

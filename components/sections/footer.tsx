@@ -32,9 +32,9 @@ const company = [
 ]
 
 const socials = [
-  { icon: Linkedin, href: "https://www.linkedin.com/company/aztechled", label: "LinkedIn" },
-  { icon: Instagram, href: "https://www.instagram.com/aztechled", label: "Instagram" },
-  { icon: Facebook, href: "https://www.facebook.com/aztechled", label: "Facebook" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/aztechledscreensupplier/", label: "LinkedIn" },
+  { icon: Instagram, href: "https://www.instagram.com/ledscreendxb?igsh=NHQ0aDFuc3hwZmd4", label: "Instagram" },
+  { icon: Facebook, href: "https://www.facebook.com/share/1Ayj5XVxF5/", label: "Facebook" },
 ]
 
 export function Footer() {
@@ -50,9 +50,9 @@ export function Footer() {
                   <Image
                     src="/images/1.jpg__2_-removebg-preview.png"
                     alt="Aztech LED Logo"
-                    width={80}
-                    height={80}
-                    className="w-20 h-20 object-cover"
+                    width={128}
+                    height={128}
+                    className="w-32 h-32 object-contain"
                   />
                 </a>
               </div>
@@ -141,9 +141,9 @@ export function Footer() {
                 Contact Us
               </h3>
               <address className="not-italic font-sans text-[0.82rem] text-[var(--text-secondary)] leading-[1.7] mb-4">
-                H.No.21, Kuttiyil House,<br />
-                Sundaragiri Road, Kalamassery,<br />
-                Ernakulam, Kerala – 683104
+                CHAMMANY COMPLEX , SHOP NO 65/869,<br />
+                SEBASTIAN ROAD, KALOOR,<br />
+                KOCHIN 682017
               </address>
               <p className="font-sans text-[0.82rem] text-[var(--text-secondary)] mb-4">
                 Mon–Sat: 8:00 AM – 6:00 PM

@@ -31,7 +31,7 @@ export function TopBar() {
       <div className="h-full px-[var(--section-pad-x)] flex items-center justify-between max-w-[1920px] mx-auto">
         <div className="hidden md:flex items-center gap-1.5">
           <MapPin className="w-3.5 h-3.5" aria-hidden="true" />
-          <span>Kuttiyil House, Sundaragiri Road, Kalamassery, Ernakulam – 683104</span>
+          <span>CHAMMANY COMPLEX, SHOP NO 65/869, SEBASTIAN ROAD, KALOOR, KOCHIN 682017</span>
         </div>
         
         <div className="flex items-center gap-3 text-[0.75rem] ml-auto md:ml-0">

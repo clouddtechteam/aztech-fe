@@ -11,7 +11,6 @@ const filters = [
   "Outdoor",
   "LCD & Video Wall",
   "LED Lighting",
-  "Government",
   "Events",
 ]
 
@@ -83,13 +82,12 @@ export function PortfolioSection() {
           ))}
         </div>
 
-        {/* Projects Grid - Masonry style */}
-        <div className="columns-1 md:columns-2 lg:columns-3 gap-4 space-y-4">
+        {/* Projects Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
           {filteredProjects.map((project, index) => (
             <div 
               key={project.name}
-              className="group relative break-inside-avoid overflow-hidden rounded-[var(--radius-md)] cursor-pointer"
-              style={{ aspectRatio: aspectRatios[index % aspectRatios.length] }}
+              className="group relative overflow-hidden rounded-[var(--radius-md)] cursor-pointer aspect-[4/3]"
             >
               {/* Project image */}
               <Image 

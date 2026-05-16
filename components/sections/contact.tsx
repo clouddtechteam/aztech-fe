@@ -161,12 +161,12 @@ export function ContactSection() {
               </div>
 
               <div className="flex flex-col gap-4">
-                <a href="https://www.google.com/maps/search/?api=1&query=10.0501,76.3108" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+                <a href="https://www.google.com/maps/search/?api=1&query=CHAMMANY+COMPLEX,+SHOP+NO+65%2F869,+SEBASTIAN+ROAD,+KALOOR,+KOCHIN+682017" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
                   <MapPin className="w-[18px] h-[18px] text-[var(--accent-mid)] mt-1 shrink-0" aria-hidden="true" />
                   <address className="font-sans text-[0.9rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
-                    H.No.21, Kuttiyil House, Sundaragiri Road,<br />
-                    Kalamassery, Ernakulam,<br />
-                    Kerala – 683104
+                    CHAMMANY COMPLEX , SHOP NO 65/869,<br />
+                    SEBASTIAN ROAD, KALOOR,<br />
+                    KOCHIN 682017
                   </address>
                 </a>
                 
@@ -205,8 +205,8 @@ export function ContactSection() {
             {/* Map embed */}
             <div className="aspect-[4/3] rounded-[var(--radius-md)] border border-[var(--border-light)] overflow-hidden mb-6">
               <iframe
-                title="Aztech LED Screens office location in Kalamassery, Ernakulam, Kerala"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.0!2d76.3108!3d10.0501!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d3d27a98b9f%3A0x6b7f9b8c4e2d1a5c!2sKalamassery%2C%20Ernakulam%2C%20Kerala!5e0!3m2!1sen!2sin!4v1746120000000!5m2!1sen!2sin"
+                title="Aztech LED Screens office location in Kochin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3929.139446059174!2d76.29227567484307!3d9.996924872922797!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d38101683cb%3A0x86811d6199f3d53a!2sSebastian%20Rd%2C%20Kaloor%2C%20Kochi%2C%20Kerala%20682017!5e0!3m2!1sen!2sin!4v1715841445791!5m2!1sen!2sin"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
@@ -214,27 +214,6 @@ export function ContactSection() {
                 loading="lazy"
                 referrerPolicy="no-referrer-when-downgrade"
               />
-            </div>
-            
-            {/* WhatsApp CTA */}
-            <div className="bg-[var(--success-bg)] border border-[rgba(26,107,60,0.2)] rounded-[var(--radius-md)] p-5">
-              <h3 className="font-sans text-[0.9rem] font-semibold text-[var(--success)] mb-1">
-                Prefer WhatsApp?
-              </h3>
-              <p className="font-sans text-[0.85rem] text-[var(--text-body)] mb-4">
-                Chat with our sales team instantly. Fast response guaranteed.
-              </p>
-              <a 
-                href="https://wa.me/971561425339?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20LED%20screens."
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 bg-[#25D366] text-white font-sans text-[0.85rem] font-semibold px-5 py-3 rounded-[var(--radius-sm)] hover:bg-[#1da851] transition-colors"
-              >
-                <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5" aria-hidden="true">
-                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
-                </svg>
-                Chat on WhatsApp
-              </a>
             </div>
           </div>
 
@@ -432,6 +411,31 @@ export function ContactSection() {
                 </div>
               </form>
             )}
+            
+            {/* WhatsApp CTA inside right column */}
+            <div className={`mt-8 pt-8 border-t border-[var(--border-light)] ${isSubmitted ? 'hidden' : ''}`}>
+              <div className="bg-[var(--success-bg)] border border-[rgba(26,107,60,0.2)] rounded-[var(--radius-md)] p-5 flex flex-col sm:flex-row items-center justify-between gap-4">
+                <div>
+                  <h3 className="font-sans text-[0.9rem] font-semibold text-[var(--success)] mb-1 text-center sm:text-left">
+                    Prefer WhatsApp?
+                  </h3>
+                  <p className="font-sans text-[0.85rem] text-[var(--text-body)] m-0 text-center sm:text-left">
+                    Chat with our sales team instantly. Fast response guaranteed.
+                  </p>
+                </div>
+                <a 
+                  href="https://wa.me/971561425339?text=Hello%2C%20I%20would%20like%20to%20enquire%20about%20LED%20screens."
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center gap-2 bg-[#25D366] text-white font-sans text-[0.85rem] font-semibold px-5 py-3 rounded-[var(--radius-sm)] hover:bg-[#1da851] transition-colors whitespace-nowrap w-full sm:w-auto"
+                >
+                  <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5" aria-hidden="true">
+                    <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                  </svg>
+                  Chat on WhatsApp
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>

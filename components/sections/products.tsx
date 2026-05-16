@@ -23,10 +23,10 @@ const products = [
   { icon: Sparkles, name: "Transparent Glass LED", description: "See-through film or glass LED for storefronts", tag: "Specialty", image: "/images/prod_10.webp" },
   { icon: CircleDot, name: "Perimeter LED Display", description: "Sports stadium perimeter advertising boards", tag: "Outdoor", image: "/images/prod_11.webp" },
   { icon: Layers, name: "Curve LED Display", description: "Flexible curved screens for creative installations", tag: "Specialty", image: "/images/prod_12.webp" },
-  { icon: Globe, name: "Spherical LED Display", description: "360° globe displays for exhibitions and lobbies", tag: "Specialty", image: "/images/prod_13.webp" },
+  { icon: Globe, name: "Spherical LED Display", description: "360° globe displays for exhibitions and lobbies", tag: "Specialty", image: "/images/prod_13.png" },
   { icon: Sparkles, name: "Creative Shape LED", description: "Any irregular shape — cylinders, letters, cubes", tag: "Specialty", image: "/images/prod_14.webp" },
   { icon: Building, name: "Gas Price LED Display", description: "UAE petrol station price boards, RTA compliant", tag: "Niche", image: "/images/prod_15.webp" },
-  { icon: Car, name: "Taxi Rooftop LED", description: "Dubai taxi advertising, RTA-approved systems", tag: "Niche", image: "/images/prod_16.webp" },
+  { icon: Car, name: "Taxi Rooftop LED", description: "Dubai taxi advertising, RTA-approved systems", tag: "Niche", image: "/images/prod_16.png" },
   { icon: TrafficCone, name: "Traffic LED Display", description: "Road information, variable message signs", tag: "Niche", image: "/images/prod_17.webp" },
   { icon: Monitor, name: "LCD Video Wall", description: "Seamless LCD panels for control rooms, lobbies, command centers", tag: "Indoor", image: "/images/prod_18.webp" },
 ]
@@ -53,49 +53,22 @@ export function ProductsSection() {
         <div className="text-center mb-12">
           <p className="eyebrow !text-white/80 mb-3">WHAT WE SUPPLY</p>
           <h2 className="font-serif text-[clamp(2rem,3.5vw,3rem)] font-bold leading-[1.15] text-white mb-4">
-            18 LED Screen Products For Every Need
+            <span className="font-sans">18</span> LED Screen Products For Every Need
           </h2>
           <p className="font-sans text-[1rem] leading-[1.75] text-white/70 max-w-[600px] mx-auto">
             From poster-sized indoor displays to stadium-scale outdoor screens — we stock and supply the UAE&apos;s widest range of LED display products.
           </p>
         </div>
 
-        {/* Featured Products Visual Row */}
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4 mb-16">
-          {[
-            { name: "Indoor Display Panels", image: "/images/product_indoor_1774782297798.webp" },
-            { name: "Outdoor Billboard Modules", image: "/images/product_outdoor_1774782316663.webp" },
-            { name: "Transparent Glass LED", image: "/images/product_transparent_1774782335491.webp" },
-            { name: "Slim Poster LED", image: "/images/product_poster_1774782355639.webp" },
-          ].map((featured) => (
-            <div key={featured.name} className="relative aspect-square rounded-[var(--radius-md)] overflow-hidden group shadow-[var(--shadow-card)] border border-white/10 bg-white/5 backdrop-blur-sm">
-              <Image 
-                src={featured.image} 
-                alt={`${featured.name} - high quality product photography`} 
-                className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                loading="lazy"
-                decoding="async"
-                width={400}
-                height={400}
-                sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-              />
-              <div className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 translate-y-2 group-hover:translate-y-0 transition-transform">
-                <h3 className="font-sans text-[1.05rem] font-semibold text-white">{featured.name}</h3>
-              </div>
-            </div>
-          ))}
-        </div>
-
         {/* Products Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
           {products.map((product, index) => (
             <div 
-              key={product.name}
-              className="group relative bg-white/5 flex flex-col rounded-[var(--radius-md)] overflow-hidden border border-white/10 hover:border-white/30 hover:bg-white/10 transition-all duration-300"
-              style={{ transitionDelay: `${index * 20}ms` }}
+              key={`${product.name}-${index}`}
+              className="group relative bg-white/5 flex flex-col rounded-[var(--radius-md)] overflow-hidden border border-white/10 hover:border-white/30 hover:bg-white/10 transition-all duration-300 shadow-[var(--shadow-card)]"
             >
               {/* Product Image */}
-              <div className="relative aspect-video overflow-hidden bg-white/10">
+              <div className="relative aspect-[4/3] overflow-hidden bg-white/10">
                  <Image 
                    src={product.image}
                    alt={product.name}
@@ -103,7 +76,7 @@ export function ProductsSection() {
                    loading="lazy"
                    decoding="async"
                    width={400}
-                   height={225}
+                   height={300}
                    sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
                  />
                  <div className="absolute top-3 right-3">
@@ -113,8 +86,8 @@ export function ProductsSection() {
                  </div>
               </div>
               
-              <div className="p-5 flex flex-col flex-1">
-                <div className="flex items-center gap-2 mb-2">
+              <div className="p-5 flex flex-col flex-1 text-center">
+                <div className="flex items-center justify-center gap-2 mb-2">
                   <product.icon className="w-5 h-5 text-white/80 stroke-[1.5]" aria-hidden="true" />
                   <h3 className="font-sans text-[1.05rem] font-semibold text-white">
                     {product.name}

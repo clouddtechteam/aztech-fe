@@ -19,7 +19,7 @@ const navLinks = [
 
 export function MainNav() {
   const pathname = usePathname()
-  const isDarkPage = pathname?.startsWith("/blog")
+  const isDarkPage = pathname === "/" || pathname?.startsWith("/blog")
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)

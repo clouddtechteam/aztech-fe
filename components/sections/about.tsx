@@ -89,19 +89,23 @@ export function AboutSection() {
             </div>
             
             {/* Achievement cards */}
-            <div className="grid grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
               {achievements.map((item) => (
                 <div 
                   key={item.title}
-                  className="bg-[var(--bg-secondary)] p-4 rounded-[var(--radius-md)] border border-[var(--border-light)]"
+                  className="flex items-center gap-4 bg-[var(--bg-secondary)] p-4 rounded-[var(--radius-md)] border border-[var(--border-light)]"
                 >
-                  <item.icon className="w-6 h-6 text-[var(--accent-mid)] mb-2" aria-hidden="true" />
-                  <h3 className="font-sans text-[0.85rem] font-semibold text-[var(--text-primary)]">
-                    {item.title}
-                  </h3>
-                  <p className="font-sans text-[0.78rem] text-[var(--text-secondary)]">
-                    {item.subtitle}
-                  </p>
+                  <div className="shrink-0">
+                    <item.icon className="w-9 h-9 text-[var(--accent-mid)]" aria-hidden="true" />
+                  </div>
+                  <div>
+                    <h3 className="font-sans text-[0.9rem] font-semibold text-[var(--text-primary)] mb-0.5">
+                      {item.title}
+                    </h3>
+                    <p className="font-sans text-[0.78rem] text-[var(--text-secondary)] leading-tight">
+                      {item.subtitle}
+                    </p>
+                  </div>
                 </div>
               ))}
             </div>

@@ -7,6 +7,7 @@ const trustBadges = [
   "In-house installation team",
   "Fast delivery across India",
   "20+ years Dubai experience",
+  "24/7 After-sales support",
 ]
 
 export function HeroSection() {
