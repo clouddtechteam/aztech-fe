@@ -170,12 +170,14 @@ export function ContactSection() {
                   </address>
                 </a>
                 
-                <a href="https://maps.google.com/?q=Warehouse+55,+Al+Quoz+Industrial+Area+3,+Dubai" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+                <a href="https://www.google.com/maps/search/?api=1&query=Aztech+General+Trading+Llc+Shop+No+2+Al+Nishwan+Building+Near+ADCB+METRO+STATION+KARAMA+DUBAI+239101" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
                   <MapPin className="w-[18px] h-[18px] text-[var(--accent-mid)] mt-1 shrink-0" aria-hidden="true" />
                   <address className="font-sans text-[0.9rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
-                    Branch Office - Warehouse 55,<br />
-                    Alquoz Industrial Area 3,<br />
-                    Dubai
+                    Aztech General Trading Llc<br />
+                    Shop No: 2, Al Nishwan Building<br />
+                    Near ADCB Metro Station, Karama<br />
+                    Dubai 239101<br />
+                    Phone: <a href="tel:+97143574004" className="underline">043574004</a>
                   </address>
                 </a>
                 
