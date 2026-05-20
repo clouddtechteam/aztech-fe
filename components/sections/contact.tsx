@@ -170,16 +170,30 @@ export function ContactSection() {
                   </address>
                 </a>
                 
-                <a href="https://www.google.com/maps/search/?api=1&query=Aztech+General+Trading+Llc+Shop+No+2+Al+Nishwan+Building+Near+ADCB+METRO+STATION+KARAMA+DUBAI+239101" target="_blank" rel="noopener noreferrer" className="flex items-start gap-3 group">
+                <div className="flex items-start gap-3">
                   <MapPin className="w-[18px] h-[18px] text-[var(--accent-mid)] mt-1 shrink-0" aria-hidden="true" />
-                  <address className="font-sans text-[0.9rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
-                    Aztech General Trading Llc<br />
-                    Shop No: 2, Al Nishwan Building<br />
-                    Near ADCB Metro Station, Karama<br />
-                    Dubai 239101<br />
-                    Phone: <a href="tel:+97143574004" className="underline">043574004</a>
-                  </address>
-                </a>
+                  <div className="flex-1 space-y-2">
+                    <a
+                      href="https://www.google.com/maps/search/?api=1&query=Aztech+General+Trading+Llc+Shop+No+2+Al+Nishwan+Building+Near+ADCB+METRO+STATION+KARAMA+DUBAI+239101"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="group block"
+                    >
+                      <address className="font-sans text-[0.9rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
+                        Aztech General Trading Llc<br />
+                        Shop No: 2, Al Nishwan Building<br />
+                        Near ADCB Metro Station, Karama<br />
+                        Dubai 239101
+                      </address>
+                    </a>
+                    <a
+                      href="tel:+97143574004"
+                      className="block font-sans text-[0.9rem] text-[var(--text-body)] underline transition-colors hover:text-[var(--accent)]"
+                    >
+                      Phone: 043574004
+                    </a>
+                  </div>
+                </div>
                 
                 <a href="tel:+917356780866" className="flex items-center gap-3 group">
                   <Phone className="w-[18px] h-[18px] text-[var(--accent-mid)] shrink-0" aria-hidden="true" />
