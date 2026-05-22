@@ -22,13 +22,13 @@ export const siteConfig = {
     "P2 LED screen Dubai"
   ],
   contact: {
-    email: "sales@az-tech.ae",
-    phone: "+91 73567 80866",
-    whatsapp: "+971 56 142 5339",
+    email: "sales@az-tech.ae, santosh.k@aztechledscreens.com",
+    whatsappIndia: "+91 73567 80866",
+    whatsappDubai: "+971 56 142 5339",
     address: "Kuttiyil House, Sundaragiri Road, Kalamassery, Ernakulam, Kerala – 683104",
   },
   links: {
-    whatsapp: "https://wa.me/971561425339",
+    whatsapp: "https://wa.me/917356780866",
   }
 }
 

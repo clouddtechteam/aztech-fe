@@ -43,9 +43,13 @@ export async function POST(req: NextRequest) {
     const safeSource = escapeHtml(source)
     const safeMessage = escapeHtml(message).replace(/\n/g, '<br/>')
 
+    const recipients = TO_EMAIL === 'sales@az-tech.ae'
+      ? ['sales@az-tech.ae', 'santosh.k@aztechledscreens.com']
+      : [TO_EMAIL]
+
     const { error } = await resend.emails.send({
       from: `Aztech LED Website <${FROM_EMAIL}>`,
-      to: [TO_EMAIL],
+      to: recipients,
       replyTo: email,
       subject: `New Enquiry: ${service} - ${name}${company ? ` (${company})` : ''}`,
       html: `
