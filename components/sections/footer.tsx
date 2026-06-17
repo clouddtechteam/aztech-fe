@@ -2,25 +2,25 @@ import Image from "next/image"
 import { Phone, Linkedin, Instagram, Facebook } from "lucide-react"
 
 const products = [
-  "HD LED Display",
-  "Indoor LED Display",
-  "Outdoor DIP LED",
-  "Outdoor SMD LED",
-  "Transparent Glass LED",
-  "Poster LED Display",
-  "Floor LED Display",
-  "Spherical LED Display",
+  { label: "HD LED Display", href: "/#product-hd-led-display" },
+  { label: "Indoor LED Display", href: "/#product-indoor-led-display" },
+  { label: "Outdoor DIP LED", href: "/#product-outdoor-dip-led-display" },
+  { label: "Outdoor SMD LED", href: "/#product-outdoor-smd-led-display" },
+  { label: "Transparent Glass LED", href: "/#product-transparent-glass-led" },
+  { label: "Poster LED Display", href: "/#product-poster-led-display" },
+  { label: "Floor LED Display", href: "/#product-floor-led-display" },
+  { label: "Spherical LED Display", href: "/#product-spherical-led-display" },
 ]
 
 const solutions = [
-  "Retail & Malls",
-  "Corporate & Office",
-  "Hospitality & Hotels",
-  "Healthcare",
-  "Education",
-  "Government",
-  "Events & Exhibitions",
-  "Sports & Stadiums",
+  { label: "Retail & Malls", href: "/#solutions-retail" },
+  { label: "Corporate & Office", href: "/#solutions-corporate" },
+  { label: "Hospitality & Hotels", href: "/#solutions-hospitality" },
+  { label: "Healthcare", href: "/#solutions-healthcare" },
+  { label: "Education", href: "/#solutions-education" },
+  { label: "Government", href: "/#solutions-government" },
+  { label: "Events & Exhibitions", href: "/#solutions-events" },
+  { label: "Sports & Stadiums", href: "/#solutions-sports" },
 ]
 
 const company = [
@@ -89,9 +89,9 @@ export function Footer() {
               </h3>
               <ul className="flex flex-col gap-2.5">
                 {products.map((product) => (
-                  <li key={product}>
-                    <a href="/#products" className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
-                      {product}
+                  <li key={product.label}>
+                    <a href={product.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                      {product.label}
                     </a>
                   </li>
                 ))}
@@ -110,9 +110,9 @@ export function Footer() {
               </h3>
               <ul className="flex flex-col gap-2.5">
                 {solutions.map((solution) => (
-                  <li key={solution}>
-                    <a href="/#solutions" className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
-                      {solution}
+                  <li key={solution.label}>
+                    <a href={solution.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                      {solution.label}
                     </a>
                   </li>
                 ))}
