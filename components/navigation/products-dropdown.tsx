@@ -59,7 +59,7 @@ export function ProductsDropdown() {
                 {category.products.map((product) => (
                   <li key={product.name}>
                     <a
-                      href={product.href}
+                      href={`#product-${product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
                       className="font-sans text-[0.875rem] text-[var(--text-body)] hover:text-[var(--accent)] transition-colors"
                     >
                       {product.name}

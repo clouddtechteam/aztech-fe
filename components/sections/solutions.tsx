@@ -104,6 +104,31 @@ export function SolutionsSection() {
   const [activeTab, setActiveTab] = useState("retail")
   const { ref, isVisible } = useReveal()
 
+  useEffect(() => {
+    const handleHashChange = () => {
+      const hash = window.location.hash;
+      if (hash.startsWith('#solutions-')) {
+        const id = hash.replace('#solutions-', '');
+        if (industries.some(i => i.id === id)) {
+          setActiveTab(id);
+          setTimeout(() => {
+            const el = document.getElementById('solutions');
+            if (el) {
+              const y = el.getBoundingClientRect().top + window.scrollY - 80;
+              window.scrollTo({ top: y, behavior: 'smooth' });
+            }
+          }, 10);
+        }
+      }
+    };
+    
+    // Check initially in case loaded with hash
+    handleHashChange();
+
+    window.addEventListener('hashchange', handleHashChange);
+    return () => window.removeEventListener('hashchange', handleHashChange);
+  }, []);
+
   const activeIndustry = industries.find(i => i.id === activeTab)!
 
   return (

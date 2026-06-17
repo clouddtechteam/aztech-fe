@@ -65,6 +65,8 @@ export function ProductsSection() {
           {products.map((product, index) => (
             <div 
               key={`${product.name}-${index}`}
+              id={`product-${product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
+              style={{ scrollMarginTop: '100px' }}
               className="group relative bg-white/5 flex flex-col rounded-[var(--radius-md)] overflow-hidden border border-white/10 hover:border-white/30 hover:bg-white/10 transition-all duration-300 shadow-[var(--shadow-card)]"
             >
               {/* Product Image */}

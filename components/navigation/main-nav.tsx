@@ -1,6 +1,6 @@
 "use client"
 
-import { useState, useEffect } from "react"
+import { useState, useEffect, useRef } from "react"
 import { usePathname } from "next/navigation"
 import Image from "next/image"
 import { ChevronDown, Menu, X } from "lucide-react"
@@ -23,6 +23,7 @@ export function MainNav() {
   const [isScrolled, setIsScrolled] = useState(false)
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [activeDropdown, setActiveDropdown] = useState<string | null>(null)
+  const timeoutRef = useRef<NodeJS.Timeout | null>(null)
 
   useEffect(() => {
     const handleScroll = () => {
@@ -37,11 +38,25 @@ export function MainNav() {
   }, [])
 
   const handleDropdownEnter = (type: string) => {
+    if (timeoutRef.current) clearTimeout(timeoutRef.current)
     setActiveDropdown(type)
   }
 
   const handleDropdownLeave = () => {
-    setActiveDropdown(null)
+    timeoutRef.current = setTimeout(() => {
+      setActiveDropdown(null)
+    }, 150)
+  }
+
+  const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, link: any) => {
+    if (link.hasDropdown) {
+      e.preventDefault()
+      if (activeDropdown === link.dropdownType) {
+        setActiveDropdown(null)
+      } else {
+        setActiveDropdown(link.dropdownType!)
+      }
+    }
   }
 
   return (
@@ -82,6 +97,7 @@ export function MainNav() {
               >
                 <a
                   href={link.href}
+                  onClick={(e) => handleLinkClick(e, link)}
                   className={`flex items-center gap-1 font-sans text-[0.875rem] font-medium transition-colors duration-200 relative group py-2 ${(!isScrolled && isDarkPage) ? 'text-white/80 hover:text-white' : 'text-[var(--text-body)] hover:text-[var(--accent)]'}`}
                 >
                   {link.label}

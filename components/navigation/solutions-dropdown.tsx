@@ -1,14 +1,14 @@
 import { ArrowRight } from "lucide-react"
 
 const industries = [
-  "Retail & Shopping Malls",
-  "Corporate & Office",
-  "Hospitality & Hotels",
-  "Healthcare & Clinics",
-  "Education & Schools",
-  "Government & Public Sector",
-  "Sports & Stadiums",
-  "Events & Exhibitions",
+  { name: "Retail & Shopping Malls", id: "retail" },
+  { name: "Corporate & Office", id: "corporate" },
+  { name: "Hospitality & Hotels", id: "hospitality" },
+  { name: "Healthcare & Clinics", id: "healthcare" },
+  { name: "Education & Schools", id: "education" },
+  { name: "Government & Public Sector", id: "government" },
+  { name: "Sports & Stadiums", id: "sports" },
+  { name: "Events & Exhibitions", id: "events" },
 ]
 
 const services = [
@@ -34,12 +34,12 @@ export function SolutionsDropdown() {
             </h3>
             <ul className="space-y-2.5">
               {industries.map((industry) => (
-                <li key={industry}>
+                <li key={industry.id}>
                   <a
-                    href="#solutions"
+                    href={`#solutions-${industry.id}`}
                     className="font-sans text-[0.875rem] text-[var(--text-body)] hover:text-[var(--accent)] transition-colors"
                   >
-                    {industry}
+                    {industry.name}
                   </a>
                 </li>
               ))}
