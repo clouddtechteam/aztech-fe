@@ -1,4 +1,5 @@
 import { ArrowRight } from "lucide-react"
+import Link from "next/link"
 
 const industries = [
   { name: "Retail & Shopping Malls", id: "retail" },
@@ -35,12 +36,12 @@ export function SolutionsDropdown() {
             <ul className="space-y-2.5">
               {industries.map((industry) => (
                 <li key={industry.id}>
-                  <a
-                    href={`#solutions-${industry.id}`}
+                  <Link
+                    href={`/?solution=${industry.id}#solutions`}
                     className="font-sans text-[0.875rem] text-[var(--text-body)] hover:text-[var(--accent)] transition-colors"
                   >
                     {industry.name}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -54,12 +55,12 @@ export function SolutionsDropdown() {
             <ul className="space-y-2.5">
               {services.map((service) => (
                 <li key={service}>
-                  <a
-                    href="#services"
+                  <Link
+                    href="/#services"
                     className="font-sans text-[0.875rem] text-[var(--text-body)] hover:text-[var(--accent)] transition-colors"
                   >
                     {service}
-                  </a>
+                  </Link>
                 </li>
               ))}
             </ul>
@@ -75,13 +76,13 @@ export function SolutionsDropdown() {
                 From Sheikh Hamdan Palace to Dubai Cricket Stadium.
               </p>
             </div>
-            <a
-              href="#projects"
+            <Link
+              href="/#projects"
               className="mt-6 inline-flex items-center gap-2 font-sans text-[0.875rem] font-medium text-white border border-white rounded-[var(--radius-sm)] px-4 py-2 hover:bg-white/10 transition-colors self-start"
             >
               See All Projects
               <ArrowRight className="w-4 h-4" />
-            </a>
+            </Link>
           </div>
         </div>
       </div>

@@ -1,16 +1,17 @@
 import Image from "next/image"
+import Link from "next/link"
 import { Phone, Linkedin, Instagram, Facebook } from "lucide-react"
 import { categories } from "@/lib/product-data"
 
 const solutions = [
-  { label: "Retail & Malls", href: "/#solutions-retail" },
-  { label: "Corporate & Office", href: "/#solutions-corporate" },
-  { label: "Hospitality & Hotels", href: "/#solutions-hospitality" },
-  { label: "Healthcare", href: "/#solutions-healthcare" },
-  { label: "Education", href: "/#solutions-education" },
-  { label: "Government", href: "/#solutions-government" },
-  { label: "Events & Exhibitions", href: "/#solutions-events" },
-  { label: "Sports & Stadiums", href: "/#solutions-sports" },
+  { label: "Retail & Malls", href: "/?solution=retail#solutions" },
+  { label: "Corporate & Office", href: "/?solution=corporate#solutions" },
+  { label: "Hospitality & Hotels", href: "/?solution=hospitality#solutions" },
+  { label: "Healthcare", href: "/?solution=healthcare#solutions" },
+  { label: "Education", href: "/?solution=education#solutions" },
+  { label: "Government", href: "/?solution=government#solutions" },
+  { label: "Events & Exhibitions", href: "/?solution=events#solutions" },
+  { label: "Sports & Stadiums", href: "/?solution=sports#solutions" },
 ]
 
 const company = [
@@ -80,15 +81,15 @@ export function Footer() {
               <ul className="flex flex-col gap-2.5">
                 {categories.map((category) => (
                   <li key={category.id}>
-                    <a href={`/?category=${category.id}#products`} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                    <Link href={`/?category=${category.id}#products`} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
                       {category.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
                 <li>
-                  <a href="/#products" className="font-sans text-[0.85rem] font-semibold text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors mt-2 inline-block">
+                  <Link href="/#products" className="font-sans text-[0.85rem] font-semibold text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors mt-2 inline-block">
                     View All Products →
-                  </a>
+                  </Link>
                 </li>
               </ul>
             </div>
@@ -101,9 +102,9 @@ export function Footer() {
               <ul className="flex flex-col gap-2.5">
                 {solutions.map((solution) => (
                   <li key={solution.label}>
-                    <a href={solution.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                    <Link href={solution.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
                       {solution.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -117,9 +118,9 @@ export function Footer() {
               <ul className="flex flex-col gap-2.5">
                 {company.map((item) => (
                   <li key={item.label}>
-                    <a href={item.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                    <Link href={item.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
                       {item.label}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>

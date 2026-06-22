@@ -1,5 +1,6 @@
 import { ArrowRight } from "lucide-react"
 import { categories } from "@/lib/product-data"
+import Link from "next/link"
 
 export function ProductsDropdown() {
   return (
@@ -14,12 +15,12 @@ export function ProductsDropdown() {
               <ul className="space-y-2.5">
                 {category.subcategories.map((sub) => (
                   <li key={sub.id}>
-                    <a
+                    <Link
                       href={`/?category=${category.id}&subcategory=${sub.id}#products`}
                       className="font-sans text-[0.875rem] text-[var(--text-body)] hover:text-[var(--accent)] transition-colors"
                     >
                       {sub.name}
-                    </a>
+                    </Link>
                   </li>
                 ))}
               </ul>
@@ -32,13 +33,13 @@ export function ProductsDropdown() {
           <p className="font-sans text-[0.9rem] text-[var(--text-body)]">
             Need help choosing? Our experts will recommend the right screen for your space.
           </p>
-          <a
-            href="#contact"
+          <Link
+            href="/#contact"
             className="flex items-center gap-2 font-sans text-[0.875rem] font-medium text-[var(--accent)] hover:underline whitespace-nowrap"
           >
             Talk to an Expert
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </Link>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useState, Suspense } from "react"
+import { useSearchParams } from "next/navigation"
 import { useReveal } from "@/hooks/use-reveal"
 import Image from "next/image"
 import { 
@@ -100,34 +101,20 @@ const industries = [
   },
 ]
 
-export function SolutionsSection() {
-  const [activeTab, setActiveTab] = useState("retail")
+function SolutionsSectionInner() {
+  const searchParams = useSearchParams()
+  const initialTab = industries.some(i => i.id === searchParams.get("solution")) 
+    ? searchParams.get("solution")! 
+    : "retail"
+  const [activeTab, setActiveTab] = useState(initialTab)
   const { ref, isVisible } = useReveal()
 
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash;
-      if (hash.startsWith('#solutions-')) {
-        const id = hash.replace('#solutions-', '');
-        if (industries.some(i => i.id === id)) {
-          setActiveTab(id);
-          setTimeout(() => {
-            const el = document.getElementById('solutions');
-            if (el) {
-              const y = el.getBoundingClientRect().top + window.scrollY - 80;
-              window.scrollTo({ top: y, behavior: 'smooth' });
-            }
-          }, 10);
-        }
-      }
-    };
-    
-    // Check initially in case loaded with hash
-    handleHashChange();
-
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
-  }, []);
+    const solution = searchParams.get("solution")
+    if (solution && industries.some(i => i.id === solution)) {
+      setActiveTab(solution)
+    }
+  }, [searchParams])
 
   const activeIndustry = industries.find(i => i.id === activeTab)!
 
@@ -139,7 +126,6 @@ export function SolutionsSection() {
       aria-label="LED Screen Solutions by Industry"
     >
       <div className="max-w-[var(--container-max)] mx-auto">
-        {/* Header - left aligned */}
         <div className="mb-12">
           <p className="eyebrow mb-3">INDUSTRIES WE SERVE</p>
           <h2 className="font-serif text-[clamp(2rem,3.5vw,3rem)] font-bold leading-[1.15] text-[var(--text-primary)] mb-4">
@@ -151,7 +137,6 @@ export function SolutionsSection() {
         </div>
 
         <div className="grid lg:grid-cols-[280px_1fr] gap-8 lg:gap-16">
-          {/* Tab List */}
           <div className="flex lg:flex-col gap-2 overflow-x-auto lg:overflow-visible pb-2 lg:pb-0">
             {industries.map((industry) => (
               <button
@@ -173,9 +158,7 @@ export function SolutionsSection() {
             ))}
           </div>
 
-          {/* Content Panel */}
           <div className="relative flex flex-col gap-6 lg:gap-8">
-            {/* Dynamic Industry Image Header */}
             <div className="relative w-full aspect-video md:aspect-[21/9] rounded-[var(--radius-lg)] overflow-hidden bg-[var(--bg-tertiary)] shadow-[var(--shadow-card)] group cursor-pointer">
               <Image 
                 key={activeIndustry.id} 
@@ -196,7 +179,6 @@ export function SolutionsSection() {
               </div>
             </div>
 
-            {/* Text Content */}
             <div className="relative md:px-2">
               <div className="md:hidden flex items-center gap-3 mb-4">
                  <activeIndustry.icon className="w-7 h-7 text-[var(--accent)] stroke-[1.5]" aria-hidden="true" />
@@ -214,7 +196,6 @@ export function SolutionsSection() {
                 </p>
               </div>
               
-              {/* Use cases */}
               {activeIndustry.useCases && activeIndustry.useCases.length > 0 && (
                 <div className="mb-8">
                   <p className="font-sans text-[0.75rem] font-bold text-[var(--text-muted)] tracking-[0.1em] uppercase mb-3 text-left">Common Deployments</p>
@@ -245,5 +226,13 @@ export function SolutionsSection() {
         </div>
       </div>
     </section>
+  )
+}
+
+export function SolutionsSection() {
+  return (
+    <Suspense fallback={<div className="min-h-screen bg-[var(--bg-primary)]" />}>
+      <SolutionsSectionInner />
+    </Suspense>
   )
 }
