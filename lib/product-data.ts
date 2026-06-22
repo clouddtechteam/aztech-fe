@@ -15,9 +15,9 @@ export interface ProductDetail {
 }
 
 export const productDetails: Record<string, ProductDetail> = {
-  "LP-RIA1.95-RE": {
-    id: "LP-RIA1.95-RE",
-    name: "LP-RIA1.95-RE",
+  "AZ-RIA1.95-RE": {
+    id: "AZ-RIA1.95-RE",
+    name: "AZ-RIA1.95-RE",
     title: "General Indoor Rental LED",
     description: [
       "The module adopts GOB technology to effectively prevent collision.7680Hz high refresh rate,16 bits high grayscale.",
@@ -62,9 +62,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.61-RE": {
-    id: "LP-RIA2.61-RE",
-    name: "LP-RIA2.61-RE",
+  "AZ-RIA2.61-RE": {
+    id: "AZ-RIA2.61-RE",
+    name: "AZ-RIA2.61-RE",
     title: "General Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design, flexibly adapt to multiple scenarios.",
@@ -109,9 +109,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.97-RE": {
-    id: "LP-RIA2.97-RE",
-    name: "LP-RIA2.97-RE",
+  "AZ-RIA2.97-RE": {
+    id: "AZ-RIA2.97-RE",
+    name: "AZ-RIA2.97-RE",
     title: "General Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design, flexibly adapt to multiple scenarios.",
@@ -156,9 +156,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA3.91-RE": {
-    id: "LP-RIA3.91-RE",
-    name: "LP-RIA3.91-RE",
+  "AZ-RIA3.91-RE": {
+    id: "AZ-RIA3.91-RE",
+    name: "AZ-RIA3.91-RE",
     title: "General Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design, flexibly adapt to multiple scenarios.",
@@ -203,9 +203,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA3.91-REL": {
-    id: "LP-ROA3.91-REL",
-    name: "LP-ROA3.91-REL",
+  "AZ-ROA3.91-REL": {
+    id: "AZ-ROA3.91-REL",
+    name: "AZ-ROA3.91-REL",
     title: "General Outdoor Rental LED",
     description: [
       "500x1000 mm and 500x500mm cabinet size design, flexibly adapt to multiple scenarios.",
@@ -250,9 +250,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.97-RC": {
-    id: "LP-RIA2.97-RC",
-    name: "LP-RIA2.97-RC",
+  "AZ-RIA2.97-RC": {
+    id: "AZ-RIA2.97-RC",
+    name: "AZ-RIA2.97-RC",
     title: "General Indoor Rental LED",
     description: [
       "Quick lock design, easier and faster installation and construction.",
@@ -296,9 +296,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA4.81-REL": {
-    id: "LP-ROA4.81-REL",
-    name: "LP-ROA4.81-REL",
+  "AZ-ROA4.81-REL": {
+    id: "AZ-ROA4.81-REL",
+    name: "AZ-ROA4.81-REL",
     title: "General Outdoor Rental LED",
     description: [
       "500x1000 mm and 500x500mm cabinet size design, flexibly adapt to multiple scenarios.",
@@ -343,9 +343,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA1.95-RC": {
-    id: "LP-RIA1.95-RC",
-    name: "LP-RIA1.95-RC",
+  "AZ-RIA1.95-RC": {
+    id: "AZ-RIA1.95-RC",
+    name: "AZ-RIA1.95-RC",
     title: "General Indoor Rental LED",
     description: [
       "Quick lock design, easier and faster installation and construction.",
@@ -389,9 +389,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.61-RC": {
-    id: "LP-RIA2.61-RC",
-    name: "LP-RIA2.61-RC",
+  "AZ-RIA2.61-RC": {
+    id: "AZ-RIA2.61-RC",
+    name: "AZ-RIA2.61-RC",
     title: "General Indoor Rental LED",
     description: [
       "Quick lock design, easier and faster installation and construction.",
@@ -435,9 +435,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA3.91-RC": {
-    id: "LP-RIA3.91-RC",
-    name: "LP-RIA3.91-RC",
+  "AZ-RIA3.91-RC": {
+    id: "AZ-RIA3.91-RC",
+    name: "AZ-RIA3.91-RC",
     title: "General Indoor Rental LED",
     description: [
       "Stable Performance, high precision Die-cast aluminum cabinet design.",
@@ -482,9 +482,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA1.95-RE-G-V2": {
-    id: "LP-RIA1.95-RE-G-V2",
-    name: "LP-RIA1.95-RE-G-V2",
+  "AZ-RIA1.95-RE-G-V2": {
+    id: "AZ-RIA1.95-RE-G-V2",
+    name: "AZ-RIA1.95-RE-G-V2",
     title: "Ultimate Convenience Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -529,9 +529,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.61-RE-V2": {
-    id: "LP-RIA2.61-RE-V2",
-    name: "LP-RIA2.61-RE-V2",
+  "AZ-RIA2.61-RE-V2": {
+    id: "AZ-RIA2.61-RE-V2",
+    name: "AZ-RIA2.61-RE-V2",
     title: "Ultimate Convenience Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -576,9 +576,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.97-RE-V2": {
-    id: "LP-RIA2.97-RE-V2",
-    name: "LP-RIA2.97-RE-V2",
+  "AZ-RIA2.97-RE-V2": {
+    id: "AZ-RIA2.97-RE-V2",
+    name: "AZ-RIA2.97-RE-V2",
     title: "Ultimate Convenience Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -623,9 +623,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA3.91-RE-V2": {
-    id: "LP-RIA3.91-RE-V2",
-    name: "LP-RIA3.91-RE-V2",
+  "AZ-RIA3.91-RE-V2": {
+    id: "AZ-RIA3.91-RE-V2",
+    name: "AZ-RIA3.91-RE-V2",
     title: "Ultimate Convenience Indoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -670,9 +670,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA2.97-REL-V2": {
-    id: "LP-ROA2.97-REL-V2",
-    name: "LP-ROA2.97-REL-V2",
+  "AZ-ROA2.97-REL-V2": {
+    id: "AZ-ROA2.97-REL-V2",
+    name: "AZ-ROA2.97-REL-V2",
     title: "Ultimate Convenience Outdoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -717,9 +717,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA3.91-REL-V2": {
-    id: "LP-ROA3.91-REL-V2",
-    name: "LP-ROA3.91-REL-V2",
+  "AZ-ROA3.91-REL-V2": {
+    id: "AZ-ROA3.91-REL-V2",
+    name: "AZ-ROA3.91-REL-V2",
     title: "Ultimate Convenience Outdoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design.",
@@ -764,9 +764,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA1.95-RF": {
-    id: "LP-RIA1.95-RF",
-    name: "LP-RIA1.95-RF",
+  "AZ-RIA1.95-RF": {
+    id: "AZ-RIA1.95-RF",
+    name: "AZ-RIA1.95-RF",
     title: "Creative Flexible Indoor Rental LED",
     description: [
       "Perfect \"S\" shape of single cabinet, enable -45° ~ +45° at every 2.5° step, support ±22.5°, ±20°, ±17.5°, ±15°, ±12.5°, ±10°, ±7.5°, ±5°, ±2.5°, 0°",
@@ -810,9 +810,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EIA1.5S-C": {
-    id: "LP-EIA1.5S-C",
-    name: "LP-EIA1.5S-C",
+  "AZ-EIA1.5S-C": {
+    id: "AZ-EIA1.5S-C",
+    name: "AZ-EIA1.5S-C",
     title: "LED Module",
     description: [
       "3840 refresh rate to meet a wide range of application scenarios",
@@ -845,9 +845,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EIA1.2S-C": {
-    id: "LP-EIA1.2S-C",
-    name: "LP-EIA1.2S-C",
+  "AZ-EIA1.2S-C": {
+    id: "AZ-EIA1.2S-C",
+    name: "AZ-EIA1.2S-C",
     title: "LED Module",
     description: [
       "3840 refresh rate to meet a wide range of application scenarios",
@@ -880,9 +880,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EIA1.8S-C": {
-    id: "LP-EIA1.8S-C",
-    name: "LP-EIA1.8S-C",
+  "AZ-EIA1.8S-C": {
+    id: "AZ-EIA1.8S-C",
+    name: "AZ-EIA1.8S-C",
     title: "LED Module",
     description: [
       "3840 refresh rate to meet a wide range of application scenarios",
@@ -915,9 +915,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EIA2S-C": {
-    id: "LP-EIA2S-C",
-    name: "LP-EIA2S-C",
+  "AZ-EIA2S-C": {
+    id: "AZ-EIA2S-C",
+    name: "AZ-EIA2S-C",
     title: "LED Module",
     description: [
       "3840 refresh rate to meet a wide range of application scenarios",
@@ -950,9 +950,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EIA2.5S-C": {
-    id: "LP-EIA2.5S-C",
-    name: "LP-EIA2.5S-C",
+  "AZ-EIA2.5S-C": {
+    id: "AZ-EIA2.5S-C",
+    name: "AZ-EIA2.5S-C",
     title: "LED Module",
     description: [
       "3840 refresh rate to meet a wide range of application scenarios",
@@ -985,9 +985,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA2.5S-C": {
-    id: "LP-EOA2.5S-C",
-    name: "LP-EOA2.5S-C",
+  "AZ-EOA2.5S-C": {
+    id: "AZ-EOA2.5S-C",
+    name: "AZ-EOA2.5S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1020,9 +1020,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA3S-C": {
-    id: "LP-EOA3S-C",
-    name: "LP-EOA3S-C",
+  "AZ-EOA3S-C": {
+    id: "AZ-EOA3S-C",
+    name: "AZ-EOA3S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1055,9 +1055,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA4S-C": {
-    id: "LP-EOA4S-C",
-    name: "LP-EOA4S-C",
+  "AZ-EOA4S-C": {
+    id: "AZ-EOA4S-C",
+    name: "AZ-EOA4S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1090,9 +1090,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA5S-C": {
-    id: "LP-EOA5S-C",
-    name: "LP-EOA5S-C",
+  "AZ-EOA5S-C": {
+    id: "AZ-EOA5S-C",
+    name: "AZ-EOA5S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1125,9 +1125,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA6S-C": {
-    id: "LP-EOA6S-C",
-    name: "LP-EOA6S-C",
+  "AZ-EOA6S-C": {
+    id: "AZ-EOA6S-C",
+    name: "AZ-EOA6S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1160,9 +1160,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA8S-C": {
-    id: "LP-EOA8S-C",
-    name: "LP-EOA8S-C",
+  "AZ-EOA8S-C": {
+    id: "AZ-EOA8S-C",
+    name: "AZ-EOA8S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1195,9 +1195,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EOA10S-C": {
-    id: "LP-EOA10S-C",
-    name: "LP-EOA10S-C",
+  "AZ-EOA10S-C": {
+    id: "AZ-EOA10S-C",
+    name: "AZ-EOA10S-C",
     title: "LED Module",
     description: [
       "High refresh rate to meet a wide range of application scenarios",
@@ -1230,9 +1230,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA108-EH": {
-    id: "LP-MIA108-EH",
-    name: "LP-MIA108-EH",
+  "AZ-MIA108-EH": {
+    id: "AZ-MIA108-EH",
+    name: "AZ-MIA108-EH",
     title: "Indoor ALL-In-One LED",
     description: [
       "Global ultra-thin design (35mm), color saturation more than 97%.",
@@ -1275,9 +1275,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA135-EH": {
-    id: "LP-MIA135-EH",
-    name: "LP-MIA135-EH",
+  "AZ-MIA135-EH": {
+    id: "AZ-MIA135-EH",
+    name: "AZ-MIA135-EH",
     title: "Indoor ALL-In-One LED",
     description: [
       "Global ultra-thin design (35mm), color saturation more than 97%.",
@@ -1320,9 +1320,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA163-EH": {
-    id: "LP-MIA163-EH",
-    name: "LP-MIA163-EH",
+  "AZ-MIA163-EH": {
+    id: "AZ-MIA163-EH",
+    name: "AZ-MIA163-EH",
     title: "Indoor ALL-In-One LED",
     description: [
       "Global ultra-thin design (35mm), color saturation more than 97%.",
@@ -1365,9 +1365,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA216-EH": {
-    id: "LP-MIA216-EH",
-    name: "LP-MIA216-EH",
+  "AZ-MIA216-EH": {
+    id: "AZ-MIA216-EH",
+    name: "AZ-MIA216-EH",
     title: "Indoor ALL-In-One LED",
     description: [
       "Global ultra-thin design (35mm), color saturation more than 97%.",
@@ -1410,9 +1410,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA135-AC": {
-    id: "LP-MIA135-AC",
-    name: "LP-MIA135-AC",
+  "AZ-MIA135-AC": {
+    id: "AZ-MIA135-AC",
+    name: "AZ-MIA135-AC",
     title: "Commercial All-In-One LED",
     description: [
       "Ultra-light & Ultra-thin: Border thickness less than 19mm.",
@@ -1460,9 +1460,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VOA10-EH": {
-    id: "LP-VOA10-EH",
-    name: "LP-VOA10-EH",
+  "AZ-VOA10-EH": {
+    id: "AZ-VOA10-EH",
+    name: "AZ-VOA10-EH",
     title: "Outdoor Stadium LED",
     description: [
       "Meet a variety of high protection demand: waterproof.",
@@ -1507,9 +1507,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA3.91-MH": {
-    id: "LP-ROA3.91-MH",
-    name: "LP-ROA3.91-MH",
+  "AZ-ROA3.91-MH": {
+    id: "AZ-ROA3.91-MH",
+    name: "AZ-ROA3.91-MH",
     title: "Outdoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design support splicing installation with up and down.",
@@ -1554,9 +1554,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-ROA4.81-MH": {
-    id: "LP-ROA4.81-MH",
-    name: "LP-ROA4.81-MH",
+  "AZ-ROA4.81-MH": {
+    id: "AZ-ROA4.81-MH",
+    name: "AZ-ROA4.81-MH",
     title: "Outdoor Rental LED",
     description: [
       "500x500mm and 500x1000mm cabinet size design support splicing installation with up and down.",
@@ -1601,9 +1601,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.97-SH": {
-    id: "LP-RIA2.97-SH",
-    name: "LP-RIA2.97-SH",
+  "AZ-RIA2.97-SH": {
+    id: "AZ-RIA2.97-SH",
+    name: "AZ-RIA2.97-SH",
     title: "Indoor Rental LED",
     description: [
       "Straight screen, an outer arc and an inner arc, and a total of five angles can be switched to achieve seamless splicing.",
@@ -1648,9 +1648,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA3.91-SH": {
-    id: "LP-RIA3.91-SH",
-    name: "LP-RIA3.91-SH",
+  "AZ-RIA3.91-SH": {
+    id: "AZ-RIA3.91-SH",
+    name: "AZ-RIA3.91-SH",
     title: "Indoor Rental LED",
     description: [
       "Straight screen, an outer arc and an inner arc, and a total of five angles can be switched to achieve seamless splicing.",
@@ -1695,9 +1695,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA1.95-SH": {
-    id: "LP-RIA1.95-SH",
-    name: "LP-RIA1.95-SH",
+  "AZ-RIA1.95-SH": {
+    id: "AZ-RIA1.95-SH",
+    name: "AZ-RIA1.95-SH",
     title: "Indoor Rental LED",
     description: [
       "Straight screen, an outer arc and an inner arc, and a total of five angles can be switched to achieve seamless splicing.",
@@ -1742,9 +1742,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-RIA2.61-SH": {
-    id: "LP-RIA2.61-SH",
-    name: "LP-RIA2.61-SH",
+  "AZ-RIA2.61-SH": {
+    id: "AZ-RIA2.61-SH",
+    name: "AZ-RIA2.61-SH",
     title: "Indoor Rental LED",
     description: [
       "Straight screen, an outer arc and an inner arc, and a total of five angles can be switched to achieve seamless splicing.",
@@ -1789,9 +1789,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA2.97-PH": {
-    id: "LP-GOA2.97-PH",
-    name: "LP-GOA2.97-PH",
+  "AZ-GOA2.97-PH": {
+    id: "AZ-GOA2.97-PH",
+    name: "AZ-GOA2.97-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 77mm and 36kg/㎡.",
@@ -1837,9 +1837,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA3.91-PH": {
-    id: "LP-GOA3.91-PH",
-    name: "LP-GOA3.91-PH",
+  "AZ-GOA3.91-PH": {
+    id: "AZ-GOA3.91-PH",
+    name: "AZ-GOA3.91-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 77mm and 34kg/㎡.",
@@ -1886,9 +1886,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA4.81-PH": {
-    id: "LP-GOA4.81-PH",
-    name: "LP-GOA4.81-PH",
+  "AZ-GOA4.81-PH": {
+    id: "AZ-GOA4.81-PH",
+    name: "AZ-GOA4.81-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 77mm and 34kg/㎡.",
@@ -1935,9 +1935,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA5-PH": {
-    id: "LP-GOA5-PH",
-    name: "LP-GOA5-PH",
+  "AZ-GOA5-PH": {
+    id: "AZ-GOA5-PH",
+    name: "AZ-GOA5-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 85mm and 30kg/㎡.",
@@ -1984,9 +1984,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA6-PH": {
-    id: "LP-GOA6-PH",
-    name: "LP-GOA6-PH",
+  "AZ-GOA6-PH": {
+    id: "AZ-GOA6-PH",
+    name: "AZ-GOA6-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 85mm and 30kg/㎡.",
@@ -2033,9 +2033,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA8-PH": {
-    id: "LP-GOA8-PH",
-    name: "LP-GOA8-PH",
+  "AZ-GOA8-PH": {
+    id: "AZ-GOA8-PH",
+    name: "AZ-GOA8-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 85mm and 30kg/㎡.",
@@ -2082,9 +2082,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GOA10-PH": {
-    id: "LP-GOA10-PH",
-    name: "LP-GOA10-PH",
+  "AZ-GOA10-PH": {
+    id: "AZ-GOA10-PH",
+    name: "AZ-GOA10-PH",
     title: "General Outdoor Fixed LED",
     description: [
       "Super thin and light design, 85mm and 30kg/㎡.",
@@ -2131,9 +2131,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA1.95-SH": {
-    id: "LP-GIA1.95-SH",
-    name: "LP-GIA1.95-SH",
+  "AZ-GIA1.95-SH": {
+    id: "AZ-GIA1.95-SH",
+    name: "AZ-GIA1.95-SH",
     title: "General Indoor Fixed LED",
     description: [
       "500x1000mm, 500x750mm and 500x500mm panel to match your design.",
@@ -2178,9 +2178,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA2.61-SH": {
-    id: "LP-GIA2.61-SH",
-    name: "LP-GIA2.61-SH",
+  "AZ-GIA2.61-SH": {
+    id: "AZ-GIA2.61-SH",
+    name: "AZ-GIA2.61-SH",
     title: "General Indoor Fixed LED",
     description: [
       "500x1000mm, 500x750mm and 500x500mm panel to match your design.",
@@ -2225,9 +2225,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA2.97-SH": {
-    id: "LP-GIA2.97-SH",
-    name: "LP-GIA2.97-SH",
+  "AZ-GIA2.97-SH": {
+    id: "AZ-GIA2.97-SH",
+    name: "AZ-GIA2.97-SH",
     title: "General Indoor Fixed LED",
     description: [
       "500x1000mm, 500x750mm and 500x500mm panel to match your design.",
@@ -2272,9 +2272,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA3.91-SH": {
-    id: "LP-GIA3.91-SH",
-    name: "LP-GIA3.91-SH",
+  "AZ-GIA3.91-SH": {
+    id: "AZ-GIA3.91-SH",
+    name: "AZ-GIA3.91-SH",
     title: "General Indoor Fixed LED",
     description: [
       "500x1000mm, 500x750mm and 500x500mm panel to match your design.",
@@ -2319,9 +2319,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA4.81-SH": {
-    id: "LP-GIA4.81-SH",
-    name: "LP-GIA4.81-SH",
+  "AZ-GIA4.81-SH": {
+    id: "AZ-GIA4.81-SH",
+    name: "AZ-GIA4.81-SH",
     title: "General Indoor Fixed LED",
     description: [
       "500x1000mm, 500x750mm and 500x500mm panel to match your design.",
@@ -2366,9 +2366,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA135-CF": {
-    id: "LP-MIA135-CF",
-    name: "LP-MIA135-CF",
+  "AZ-MIA135-CF": {
+    id: "AZ-MIA135-CF",
+    name: "AZ-MIA135-CF",
     title: "COB Foldable All-In-One LED",
     description: [
       "Fully flip COB module, bumping and moisture-proof.",
@@ -2423,9 +2423,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA135-CC": {
-    id: "LP-MIA135-CC",
-    name: "LP-MIA135-CC",
+  "AZ-MIA135-CC": {
+    id: "AZ-MIA135-CC",
+    name: "AZ-MIA135-CC",
     title: "Commercial All-In-One LED",
     description: [
       "Compatible with video conferencing software such as Teams and Zoom.",
@@ -2479,9 +2479,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA163-CC": {
-    id: "LP-MIA163-CC",
-    name: "LP-MIA163-CC",
+  "AZ-MIA163-CC": {
+    id: "AZ-MIA163-CC",
+    name: "AZ-MIA163-CC",
     title: "Commercial All-In-One LED",
     description: [
       "Compatible with video conferencing software such as Teams and Zoom.",
@@ -2535,9 +2535,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-MIA108-CC": {
-    id: "LP-MIA108-CC",
-    name: "LP-MIA108-CC",
+  "AZ-MIA108-CC": {
+    id: "AZ-MIA108-CC",
+    name: "AZ-MIA108-CC",
     title: "Commercial All-In-One LED",
     description: [
       "Compatible with video conferencing software such as Teams and Zoom.",
@@ -2591,9 +2591,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.2-LS": {
-    id: "LP-SIA1.2-LS",
-    name: "LP-SIA1.2-LS",
+  "AZ-SIA1.2-LS": {
+    id: "AZ-SIA1.2-LS",
+    name: "AZ-SIA1.2-LS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Light and Ultra-thin, 45mm cabinet thickness.",
@@ -2638,9 +2638,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.5-LS": {
-    id: "LP-SIA1.5-LS",
-    name: "LP-SIA1.5-LS",
+  "AZ-SIA1.5-LS": {
+    id: "AZ-SIA1.5-LS",
+    name: "AZ-SIA1.5-LS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Light and Ultra-thin, 45mm cabinet thickness.",
@@ -2685,9 +2685,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA0.9-SS": {
-    id: "LP-SIA0.9-SS",
-    name: "LP-SIA0.9-SS",
+  "AZ-SIA0.9-SS": {
+    id: "AZ-SIA0.9-SS",
+    name: "AZ-SIA0.9-SS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Ultra-thin 28mm and super-light 5.0kg design.",
@@ -2733,9 +2733,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.2-SS": {
-    id: "LP-SIA1.2-SS",
-    name: "LP-SIA1.2-SS",
+  "AZ-SIA1.2-SS": {
+    id: "AZ-SIA1.2-SS",
+    name: "AZ-SIA1.2-SS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Ultra-thin 28mm and super-light 5.0kg design.",
@@ -2781,9 +2781,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.5-SS": {
-    id: "LP-SIA1.5-SS",
-    name: "LP-SIA1.5-SS",
+  "AZ-SIA1.5-SS": {
+    id: "AZ-SIA1.5-SS",
+    name: "AZ-SIA1.5-SS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Ultra-thin 28mm and super-light 5.0kg design.",
@@ -2829,9 +2829,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.8-SS": {
-    id: "LP-SIA1.8-SS",
-    name: "LP-SIA1.8-SS",
+  "AZ-SIA1.8-SS": {
+    id: "AZ-SIA1.8-SS",
+    name: "AZ-SIA1.8-SS",
     title: "Indoor Fine Pixel Pitch LED",
     description: [
       "Ultra-thin 28mm and super-light 5.0kg design.",
@@ -2877,9 +2877,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA0.9-CH": {
-    id: "LP-SIA0.9-CH",
-    name: "LP-SIA0.9-CH",
+  "AZ-SIA0.9-CH": {
+    id: "AZ-SIA0.9-CH",
+    name: "AZ-SIA0.9-CH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -2926,9 +2926,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.2-CH": {
-    id: "LP-SIA1.2-CH",
-    name: "LP-SIA1.2-CH",
+  "AZ-SIA1.2-CH": {
+    id: "AZ-SIA1.2-CH",
+    name: "AZ-SIA1.2-CH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -2975,9 +2975,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.5-CH": {
-    id: "LP-SIA1.5-CH",
-    name: "LP-SIA1.5-CH",
+  "AZ-SIA1.5-CH": {
+    id: "AZ-SIA1.5-CH",
+    name: "AZ-SIA1.5-CH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -3024,9 +3024,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA0.9-AH": {
-    id: "LP-SIA0.9-AH",
-    name: "LP-SIA0.9-AH",
+  "AZ-SIA0.9-AH": {
+    id: "AZ-SIA0.9-AH",
+    name: "AZ-SIA0.9-AH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -3073,9 +3073,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.2-AH": {
-    id: "LP-SIA1.2-AH",
-    name: "LP-SIA1.2-AH",
+  "AZ-SIA1.2-AH": {
+    id: "AZ-SIA1.2-AH",
+    name: "AZ-SIA1.2-AH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -3122,9 +3122,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.5-AH": {
-    id: "LP-SIA1.5-AH",
-    name: "LP-SIA1.5-AH",
+  "AZ-SIA1.5-AH": {
+    id: "AZ-SIA1.5-AH",
+    name: "AZ-SIA1.5-AH",
     title: "Flip COB Indoor Fine Pixel Pitch LED",
     description: [
       "Mini Flip COB (Chips on Board) technology.",
@@ -3171,9 +3171,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-GIA3.91-SE": {
-    id: "LP-GIA3.91-SE",
-    name: "LP-GIA3.91-SE",
+  "AZ-GIA3.91-SE": {
+    id: "AZ-GIA3.91-SE",
+    name: "AZ-GIA3.91-SE",
     title: "Overseas Dahua indoor Front Maintenance fixed screen LED_P3.91_DHI-PHGIA3.91-SE",
     description: [
       "Offers a diversity of installation methods, such as it can be used as a canopy screen. It supports floor to ceiling, and wall to wall installation, as well as right angle assembly to meet the needs of various environments.",
@@ -3238,9 +3238,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.5-SC": {
-    id: "LP-SIA1.5-SC",
-    name: "LP-SIA1.5-SC",
+  "AZ-SIA1.5-SC": {
+    id: "AZ-SIA1.5-SC",
+    name: "AZ-SIA1.5-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P1.5_DHI-PHSIA1.5-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3306,9 +3306,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.8-SC": {
-    id: "LP-SIA1.8-SC",
-    name: "LP-SIA1.8-SC",
+  "AZ-SIA1.8-SC": {
+    id: "AZ-SIA1.8-SC",
+    name: "AZ-SIA1.8-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P1.8_DHI-PHSIA1.8-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3374,9 +3374,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA2-SC": {
-    id: "LP-SIA2-SC",
-    name: "LP-SIA2-SC",
+  "AZ-SIA2-SC": {
+    id: "AZ-SIA2-SC",
+    name: "AZ-SIA2-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P2_DHI-PHSIA2-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3442,9 +3442,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA2.5-SC": {
-    id: "LP-SIA2.5-SC",
-    name: "LP-SIA2.5-SC",
+  "AZ-SIA2.5-SC": {
+    id: "AZ-SIA2.5-SC",
+    name: "AZ-SIA2.5-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P2.5_DHI-PHSIA2.5-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3510,9 +3510,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA3-SC": {
-    id: "LP-SIA3-SC",
-    name: "LP-SIA3-SC",
+  "AZ-SIA3-SC": {
+    id: "AZ-SIA3-SC",
+    name: "AZ-SIA3-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P3_DHI-PHSIA3-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3578,9 +3578,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA4-SC": {
-    id: "LP-SIA4-SC",
-    name: "LP-SIA4-SC",
+  "AZ-SIA4-SC": {
+    id: "AZ-SIA4-SC",
+    name: "AZ-SIA4-SC",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P4_DHI-PHSIA4-SC",
     description: [
       "Power system integrated circuit board (power HUB all in one design), with wireless hard connection.",
@@ -3646,9 +3646,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-SIA1.2-CK": {
-    id: "LP-SIA1.2-CK",
-    name: "LP-SIA1.2-CK",
+  "AZ-SIA1.2-CK": {
+    id: "AZ-SIA1.2-CK",
+    name: "AZ-SIA1.2-CK",
     title: "Overseas Dahua indoor 640 x 480 Front Maintenance fixed screen LED_P1.2_DHI-PHSIA1.2-CK",
     description: [
       "Mini Flip COB(Chips on Board) technology.",
@@ -3661,9 +3661,9 @@ export const productDetails: Record<string, ProductDetail> = {
     features: [],
     specifications: []
   },
-  "LP-VM10-SAI100": {
-    id: "LP-VM10-SAI100",
-    name: "LP-VM10-SAI100",
+  "AZ-VM10-SAI100": {
+    id: "AZ-VM10-SAI100",
+    name: "AZ-VM10-SAI100",
     title: "Dahua 10.1\" Wall-mounted Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -3776,9 +3776,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-AI-W": {
-    id: "LP-AI-W",
-    name: "LP-AI-W",
+  "AZ-AI-W": {
+    id: "AZ-AI-W",
+    name: "AZ-AI-W",
     title: "USB Wi-Fi dongle",
     description: [
       "The USB Wi-Fi dongle supports dual frequency band of 2.4 GHz and 5 GHz. It is widely used for intelligent cloud display terminals without Wi-Fi function. As an external Wi-Fi dongle, it can be easily connected to devices through the USB port for receiving Wi-Fi signals."
@@ -3814,9 +3814,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DS04-AI400": {
-    id: "LP-DS04-AI400",
-    name: "LP-DS04-AI400",
+  "AZ-DS04-AI400": {
+    id: "AZ-DS04-AI400",
+    name: "AZ-DS04-AI400",
     title: "Dahua Media Player Box",
     description: [
       "It works up to 24 hours a day.",
@@ -3900,9 +3900,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV43-EAO400L": {
-    id: "LP-DV43-EAO400L",
-    name: "LP-DV43-EAO400L",
+  "AZ-DV43-EAO400L": {
+    id: "AZ-DV43-EAO400L",
+    name: "AZ-DV43-EAO400L",
     title: "Dahua 43 inch Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -3998,9 +3998,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV55-EAO400L": {
-    id: "LP-DV55-EAO400L",
-    name: "LP-DV55-EAO400L",
+  "AZ-DV55-EAO400L": {
+    id: "AZ-DV55-EAO400L",
+    name: "AZ-DV55-EAO400L",
     title: "Dahua 55 inch Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4096,9 +4096,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV65-EAO400L": {
-    id: "LP-DV65-EAO400L",
-    name: "LP-DV65-EAO400L",
+  "AZ-DV65-EAO400L": {
+    id: "AZ-DV65-EAO400L",
+    name: "AZ-DV65-EAO400L",
     title: "Dahua 65 inch Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4194,9 +4194,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-EAO400L": {
-    id: "LP-DH43-EAO400L",
-    name: "LP-DH43-EAO400L",
+  "AZ-DH43-EAO400L": {
+    id: "AZ-DH43-EAO400L",
+    name: "AZ-DH43-EAO400L",
     title: "Dahua 43 inch Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4292,9 +4292,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-EAO400L": {
-    id: "LP-DH55-EAO400L",
-    name: "LP-DH55-EAO400L",
+  "AZ-DH55-EAO400L": {
+    id: "AZ-DH55-EAO400L",
+    name: "AZ-DH55-EAO400L",
     title: "Dahua 55 inch Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4390,9 +4390,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH65-EAO400L": {
-    id: "LP-DH65-EAO400L",
-    name: "LP-DH65-EAO400L",
+  "AZ-DH65-EAO400L": {
+    id: "AZ-DH65-EAO400L",
+    name: "AZ-DH65-EAO400L",
     title: "Dahua 65 inch Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4488,9 +4488,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-HAI400L": {
-    id: "LP-DH43-HAI400L",
-    name: "LP-DH43-HAI400L",
+  "AZ-DH43-HAI400L": {
+    id: "AZ-DH43-HAI400L",
+    name: "AZ-DH43-HAI400L",
     title: "Dahua 43 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -4585,9 +4585,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-HAI400L": {
-    id: "LP-DH55-HAI400L",
-    name: "LP-DH55-HAI400L",
+  "AZ-DH55-HAI400L": {
+    id: "AZ-DH55-HAI400L",
+    name: "AZ-DH55-HAI400L",
     title: "Dahua 55 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -4682,9 +4682,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH65-HAI400L": {
-    id: "LP-DH65-HAI400L",
-    name: "LP-DH65-HAI400L",
+  "AZ-DH65-HAI400L": {
+    id: "AZ-DH65-HAI400L",
+    name: "AZ-DH65-HAI400L",
     title: "Dahua 65 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -4779,9 +4779,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH32-WAI200L": {
-    id: "LP-DH32-WAI200L",
-    name: "LP-DH32-WAI200L",
+  "AZ-DH32-WAI200L": {
+    id: "AZ-DH32-WAI200L",
+    name: "AZ-DH32-WAI200L",
     title: "Dahua 32 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4877,9 +4877,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-WAI200L": {
-    id: "LP-DH43-WAI200L",
-    name: "LP-DH43-WAI200L",
+  "AZ-DH43-WAI200L": {
+    id: "AZ-DH43-WAI200L",
+    name: "AZ-DH43-WAI200L",
     title: "Dahua 43 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -4969,9 +4969,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-WAI200L": {
-    id: "LP-DH55-WAI200L",
-    name: "LP-DH55-WAI200L",
+  "AZ-DH55-WAI200L": {
+    id: "AZ-DH55-WAI200L",
+    name: "AZ-DH55-WAI200L",
     title: "Dahua 55 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -5067,9 +5067,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH65-WAI200L": {
-    id: "LP-DH65-WAI200L",
-    name: "LP-DH65-WAI200L",
+  "AZ-DH65-WAI200L": {
+    id: "AZ-DH65-WAI200L",
+    name: "AZ-DH65-WAI200L",
     title: "Dahua 65 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -5165,9 +5165,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV43-SAI400L": {
-    id: "LP-DV43-SAI400L",
-    name: "LP-DV43-SAI400L",
+  "AZ-DV43-SAI400L": {
+    id: "AZ-DV43-SAI400L",
+    name: "AZ-DV43-SAI400L",
     title: "Dahua 43 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5260,9 +5260,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV43-SAI400K": {
-    id: "LP-DV43-SAI400K",
-    name: "LP-DV43-SAI400K",
+  "AZ-DV43-SAI400K": {
+    id: "AZ-DV43-SAI400K",
+    name: "AZ-DV43-SAI400K",
     title: "Dahua 43 inch Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 16 hours a day.",
@@ -5357,9 +5357,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV43-SAI400": {
-    id: "LP-DV43-SAI400",
-    name: "LP-DV43-SAI400",
+  "AZ-DV43-SAI400": {
+    id: "AZ-DV43-SAI400",
+    name: "AZ-DV43-SAI400",
     title: "Dahua 43 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5452,9 +5452,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV55-SAI400L": {
-    id: "LP-DV55-SAI400L",
-    name: "LP-DV55-SAI400L",
+  "AZ-DV55-SAI400L": {
+    id: "AZ-DV55-SAI400L",
+    name: "AZ-DV55-SAI400L",
     title: "Dahua 55 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5547,9 +5547,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV65-SAI400L": {
-    id: "LP-DV65-SAI400L",
-    name: "LP-DV65-SAI400L",
+  "AZ-DV65-SAI400L": {
+    id: "AZ-DV65-SAI400L",
+    name: "AZ-DV65-SAI400L",
     title: "Dahua 65 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5642,9 +5642,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV75-SAI400L": {
-    id: "LP-DV75-SAI400L",
-    name: "LP-DV75-SAI400L",
+  "AZ-DV75-SAI400L": {
+    id: "AZ-DV75-SAI400L",
+    name: "AZ-DV75-SAI400L",
     title: "Dahua 75 Inch Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel. It works up to 24 hours a day.",
@@ -5739,9 +5739,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV43-SAI400TL": {
-    id: "LP-DV43-SAI400TL",
-    name: "LP-DV43-SAI400TL",
+  "AZ-DV43-SAI400TL": {
+    id: "AZ-DV43-SAI400TL",
+    name: "AZ-DV43-SAI400TL",
     title: "Dahua 43 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5842,9 +5842,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV55-SAI400TL": {
-    id: "LP-DV55-SAI400TL",
-    name: "LP-DV55-SAI400TL",
+  "AZ-DV55-SAI400TL": {
+    id: "AZ-DV55-SAI400TL",
+    name: "AZ-DV55-SAI400TL",
     title: "Dahua 55 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -5945,9 +5945,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DV65-SAI400TL": {
-    id: "LP-DV65-SAI400TL",
-    name: "LP-DV65-SAI400TL",
+  "AZ-DV65-SAI400TL": {
+    id: "AZ-DV65-SAI400TL",
+    name: "AZ-DV65-SAI400TL",
     title: "Dahua 65 inch Indoor Vertical LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6048,9 +6048,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH22-SAI200L": {
-    id: "LP-DH22-SAI200L",
-    name: "LP-DH22-SAI200L",
+  "AZ-DH22-SAI200L": {
+    id: "AZ-DH22-SAI200L",
+    name: "AZ-DH22-SAI200L",
     title: "Dahua 21.5 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial grade panel. It works up to 24 hours a day.",
@@ -6140,9 +6140,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH32-SAI200L": {
-    id: "LP-DH32-SAI200L",
-    name: "LP-DH32-SAI200L",
+  "AZ-DH32-SAI200L": {
+    id: "AZ-DH32-SAI200L",
+    name: "AZ-DH32-SAI200L",
     title: "Dahua 32 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial grade panel. It works up to 24 hours a day.",
@@ -6232,9 +6232,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-SWI200": {
-    id: "LP-DH43-SWI200",
-    name: "LP-DH43-SWI200",
+  "AZ-DH43-SWI200": {
+    id: "AZ-DH43-SWI200",
+    name: "AZ-DH43-SWI200",
     title: "43\" Wall-mounted Digital Signage",
     description: [
       "High quality panels, industrial-grade design, full metal housing, 3mm toughened protective glass.",
@@ -6310,9 +6310,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-SAI400L": {
-    id: "LP-DH43-SAI400L",
-    name: "LP-DH43-SAI400L",
+  "AZ-DH43-SAI400L": {
+    id: "AZ-DH43-SAI400L",
+    name: "AZ-DH43-SAI400L",
     title: "Dahua 43 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6407,9 +6407,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH65-SAI400L": {
-    id: "LP-DH65-SAI400L",
-    name: "LP-DH65-SAI400L",
+  "AZ-DH65-SAI400L": {
+    id: "AZ-DH65-SAI400L",
+    name: "AZ-DH65-SAI400L",
     title: "Dahua 65 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6504,9 +6504,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-SAI400L": {
-    id: "LP-DH55-SAI400L",
-    name: "LP-DH55-SAI400L",
+  "AZ-DH55-SAI400L": {
+    id: "AZ-DH55-SAI400L",
+    name: "AZ-DH55-SAI400L",
     title: "Dahua 55 Inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6601,9 +6601,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-SAI400TL": {
-    id: "LP-DH43-SAI400TL",
-    name: "LP-DH43-SAI400TL",
+  "AZ-DH43-SAI400TL": {
+    id: "AZ-DH43-SAI400TL",
+    name: "AZ-DH43-SAI400TL",
     title: "Dahua 43 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6706,9 +6706,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-SAI400TL": {
-    id: "LP-DH55-SAI400TL",
-    name: "LP-DH55-SAI400TL",
+  "AZ-DH55-SAI400TL": {
+    id: "AZ-DH55-SAI400TL",
+    name: "AZ-DH55-SAI400TL",
     title: "Dahua 55 inch Indoor Wall-mounted LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel.",
@@ -6811,9 +6811,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH43-LAI400L": {
-    id: "LP-DH43-LAI400L",
-    name: "LP-DH43-LAI400L",
+  "AZ-DH43-LAI400L": {
+    id: "AZ-DH43-LAI400L",
+    name: "AZ-DH43-LAI400L",
     title: "Dahua 43 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel, it works up to 24 hours a day.",
@@ -6909,9 +6909,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH50-LAI400L": {
-    id: "LP-DH50-LAI400L",
-    name: "LP-DH50-LAI400L",
+  "AZ-DH50-LAI400L": {
+    id: "AZ-DH50-LAI400L",
+    name: "AZ-DH50-LAI400L",
     title: "Dahua 50 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel, it works up to 24 hours a day.",
@@ -7007,9 +7007,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH55-LAI400L": {
-    id: "LP-DH55-LAI400L",
-    name: "LP-DH55-LAI400L",
+  "AZ-DH55-LAI400L": {
+    id: "AZ-DH55-LAI400L",
+    name: "AZ-DH55-LAI400L",
     title: "Dahua 55 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel, it works up to 24 hours a day.",
@@ -7105,9 +7105,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-DH65-LAI400L": {
-    id: "LP-DH65-LAI400L",
-    name: "LP-DH65-LAI400L",
+  "AZ-DH65-LAI400L": {
+    id: "AZ-DH65-LAI400L",
+    name: "AZ-DH65-LAI400L",
     title: "Dahua 65 inch LCD Digital Signage",
     description: [
       "Designed with an industrial-grade panel, it works up to 24 hours a day.",
@@ -7203,9 +7203,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS490UCM-UF": {
-    id: "LP-LS490UCM-UF",
-    name: "LP-LS490UCM-UF",
+  "AZ-LS490UCM-UF": {
+    id: "AZ-LS490UCM-UF",
+    name: "AZ-LS490UCM-UF",
     title: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7276,9 +7276,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UCM-UF": {
-    id: "LP-LS550UCM-UF",
-    name: "LP-LS550UCM-UF",
+  "AZ-LS550UCM-UF": {
+    id: "AZ-LS550UCM-UF",
+    name: "AZ-LS550UCM-UF",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7349,9 +7349,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UEH-UG": {
-    id: "LP-LS550UEH-UG",
-    name: "LP-LS550UEH-UG",
+  "AZ-LS550UEH-UG": {
+    id: "AZ-LS550UEH-UG",
+    name: "AZ-LS550UEH-UG",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)",
     description: [
       "Industrial level IPS LCD panel, suitable for continuous 24/7 operation",
@@ -7422,9 +7422,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UDM-UF": {
-    id: "LP-LS550UDM-UF",
-    name: "LP-LS550UDM-UF",
+  "AZ-LS550UDM-UF": {
+    id: "AZ-LS550UDM-UF",
+    name: "AZ-LS550UDM-UF",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7495,9 +7495,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS460UDM-UF": {
-    id: "LP-LS460UDM-UF",
-    name: "LP-LS460UDM-UF",
+  "AZ-LS460UDM-UF": {
+    id: "AZ-LS460UDM-UF",
+    name: "AZ-LS460UDM-UF",
     title: "46\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7568,9 +7568,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550KDH-UF": {
-    id: "LP-LS550KDH-UF",
-    name: "LP-LS550KDH-UF",
+  "AZ-LS550KDH-UF": {
+    id: "AZ-LS550KDH-UF",
+    name: "AZ-LS550KDH-UF",
     title: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7641,9 +7641,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550KDM-UF": {
-    id: "LP-LS550KDM-UF",
-    name: "LP-LS550KDM-UF",
+  "AZ-LS550KDM-UF": {
+    id: "AZ-LS550KDM-UF",
+    name: "AZ-LS550KDM-UF",
     title: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7714,9 +7714,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UEH-UF": {
-    id: "LP-LS550UEH-UF",
-    name: "LP-LS550UEH-UF",
+  "AZ-LS550UEH-UF": {
+    id: "AZ-LS550UEH-UF",
+    name: "AZ-LS550UEH-UF",
     title: "55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7790,9 +7790,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UEM-UF": {
-    id: "LP-LS550UEM-UF",
-    name: "LP-LS550UEM-UF",
+  "AZ-LS550UEM-UF": {
+    id: "AZ-LS550UEM-UF",
+    name: "AZ-LS550UEM-UF",
     title: "55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7866,9 +7866,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS650KCM-UF": {
-    id: "LP-LS650KCM-UF",
-    name: "LP-LS650KCM-UF",
+  "AZ-LS650KCM-UF": {
+    id: "AZ-LS650KCM-UF",
+    name: "AZ-LS650KCM-UF",
     title: "65 inch 3.5mm LCD Display Wall Unit (LCD DISPLAY)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -7942,9 +7942,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UCM-EF": {
-    id: "LP-LS550UCM-EF",
-    name: "LP-LS550UCM-EF",
+  "AZ-LS550UCM-EF": {
+    id: "AZ-LS550UCM-EF",
+    name: "AZ-LS550UCM-EF",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -8014,9 +8014,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UEH-EF": {
-    id: "LP-LS550UEH-EF",
-    name: "LP-LS550UEH-EF",
+  "AZ-LS550UEH-EF": {
+    id: "AZ-LS550UEH-EF",
+    name: "AZ-LS550UEH-EF",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -8086,9 +8086,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS550UEM-EF": {
-    id: "LP-LS550UEM-EF",
-    name: "LP-LS550UEM-EF",
+  "AZ-LS550UEM-EF": {
+    id: "AZ-LS550UEM-EF",
+    name: "AZ-LS550UEM-EF",
     title: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -8158,9 +8158,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-LS490UCM-EF": {
-    id: "LP-LS490UCM-EF",
-    name: "LP-LS490UCM-EF",
+  "AZ-LS490UCM-EF": {
+    id: "AZ-LS490UCM-EF",
+    name: "AZ-LS490UCM-EF",
     title: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)",
     description: [
       "Industrial level ADS LCD panel, suitable for continuous 24/7 operation",
@@ -8230,10 +8230,10 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON2100-0416H": {
-    id: "LP-CON2100-0416H",
-    name: "LP-CON2100-0416H",
-    title: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
+  "AZ-CON2100-0416H": {
+    id: "AZ-CON2100-0416H",
+    name: "AZ-CON2100-0416H",
+    title: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
     description: [
       "16-ch HDMI signal output, and up to 1920×1080@60 Hz is supported.",
       "Supports 4 channel HDMI acquisition, with a maximum resolution of 4K@60 Hz. You can switch between the 3 modes: 1-channel 4K@60 Hz, 2-channel 4K@30 Hz, and 4 channel 1080p@60 Hz.",
@@ -8305,10 +8305,10 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON2100-0412H": {
-    id: "LP-CON2100-0412H",
-    name: "LP-CON2100-0412H",
-    title: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
+  "AZ-CON2100-0412H": {
+    id: "AZ-CON2100-0412H",
+    name: "AZ-CON2100-0412H",
+    title: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
     description: [
       "12-ch HDMI signal output, and up to 1920×1080@60 Hz is supported.",
       "Supports 4 channel HDMI acquisition, with a maximum resolution of 4K@60 Hz. You can switch between the 3 modes: 1-channel 4K@60 Hz, 2-channel 4K@30 Hz, and 4 channel 1080p@60 Hz.",
@@ -8380,10 +8380,10 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON2100-0410H": {
-    id: "LP-CON2100-0410H",
-    name: "LP-CON2100-0410H",
-    title: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
+  "AZ-CON2100-0410H": {
+    id: "AZ-CON2100-0410H",
+    name: "AZ-CON2100-0410H",
+    title: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER",
     description: [
       "10-ch HDMI signal output, and up to 1920×1080@60 Hz is supported.",
       "Supports 4 channel HDMI acquisition, with a maximum resolution of 4K@60 Hz. You can switch between the 3 modes: 1-channel 4K@60 Hz, 2-channel 4K@30 Hz, and 4 channel 1080p@60 Hz.",
@@ -8455,9 +8455,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON3000-7U": {
-    id: "LP-CON3000-7U",
-    name: "LP-CON3000-7U",
+  "AZ-CON3000-7U": {
+    id: "AZ-CON3000-7U",
+    name: "AZ-CON3000-7U",
     title: "Multi-screen Controller",
     description: [
       "19\" standard 7U ATCA industry box",
@@ -8567,9 +8567,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON3000-4U": {
-    id: "LP-CON3000-4U",
-    name: "LP-CON3000-4U",
+  "AZ-CON3000-4U": {
+    id: "AZ-CON3000-4U",
+    name: "AZ-CON3000-4U",
     title: "Multi-screen Controller",
     description: [
       "19\" standard 4U ATCA industry box",
@@ -8680,9 +8680,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-M70-D-0205HO(-H)": {
-    id: "LP-M70-D-0205HO(-H)",
-    name: "LP-M70-D-0205HO(-H)",
+  "AZ-M70-D-0205HO(-H)": {
+    id: "AZ-M70-D-0205HO(-H)",
+    name: "AZ-M70-D-0205HO(-H)",
     title: "2 Channel HDMI Distributed Decoding Box",
     description: [
       "Support 4K output, maximum 12MP decoding",
@@ -8738,9 +8738,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-CON3000-M": {
-    id: "LP-CON3000-M",
-    name: "LP-CON3000-M",
+  "AZ-CON3000-M": {
+    id: "AZ-CON3000-M",
+    name: "AZ-CON3000-M",
     title: "Multi-screen Controller",
     description: [
       "19\" standard 2.5U ATCA industry box",
@@ -8837,9 +8837,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-M60-7U": {
-    id: "LP-M60-7U",
-    name: "LP-M60-7U",
+  "AZ-M60-7U": {
+    id: "AZ-M60-7U",
+    name: "AZ-M60-7U",
     title: "Multi-service Video Management Platform",
     description: [
       "19\" standard 7U ATCA industry box",
@@ -8939,9 +8939,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-M70-4U-E": {
-    id: "LP-M70-4U-E",
-    name: "LP-M70-4U-E",
+  "AZ-M70-4U-E": {
+    id: "AZ-M70-4U-E",
+    name: "AZ-M70-4U-E",
     title: "Multi-service Video Management Platform",
     description: [
       "19\" standard 4U ATCA industry box",
@@ -9025,9 +9025,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-M60-12U": {
-    id: "LP-M60-12U",
-    name: "LP-M60-12U",
+  "AZ-M60-12U": {
+    id: "AZ-M60-12U",
+    name: "AZ-M60-12U",
     title: "Multi-service Video Management Platform",
     description: [
       "19\" standard 12U ATCA industry box",
@@ -9126,9 +9126,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-KB5200(-F)": {
-    id: "LP-KB5200(-F)",
-    name: "LP-KB5200(-F)",
+  "AZ-KB5200(-F)": {
+    id: "AZ-KB5200(-F)",
+    name: "AZ-KB5200(-F)",
     title: "Android Network Control Keyboard",
     description: [
       "Touchscreen keyboard with the Android system.",
@@ -9204,9 +9204,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-KB1000-E": {
-    id: "LP-KB1000-E",
-    name: "LP-KB1000-E",
+  "AZ-KB1000-E": {
+    id: "AZ-KB1000-E",
+    name: "AZ-KB1000-E",
     title: "Network Keyboard",
     description: [
       "Keyboard to Control",
@@ -9256,9 +9256,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-KB1000": {
-    id: "LP-KB1000",
-    name: "LP-KB1000",
+  "AZ-KB1000": {
+    id: "AZ-KB1000",
+    name: "AZ-KB1000",
     title: "Network Keyboard",
     description: [
       "Keyboard to Control",
@@ -9307,9 +9307,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD0200FX-A01": {
-    id: "LP-VD0200FX-A01",
-    name: "LP-VD0200FX-A01",
+  "AZ-VD0200FX-A01": {
+    id: "AZ-VD0200FX-A01",
+    name: "AZ-VD0200FX-A01",
     title: "Dahua 2CH UHD NETWORK VIDEO DECODER",
     description: [
       "Decoding Capability: Supports H.264 and H.265 standard network video stream decoding.",
@@ -9383,9 +9383,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD1605DU-4I-8K-2U2H": {
-    id: "LP-VD1605DU-4I-8K-2U2H",
-    name: "LP-VD1605DU-4I-8K-2U2H",
+  "AZ-VD1605DU-4I-8K-2U2H": {
+    id: "AZ-VD1605DU-4I-8K-2U2H",
+    name: "AZ-VD1605DU-4I-8K-2U2H",
     title: "Dahua 16CH UHD NETWORK VIDEO DECODER",
     description: [
       "16-ch HDMI signal output port.",
@@ -9457,9 +9457,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD2005DU-4I-8K-4H": {
-    id: "LP-VD2005DU-4I-8K-4H",
-    name: "LP-VD2005DU-4I-8K-4H",
+  "AZ-VD2005DU-4I-8K-4H": {
+    id: "AZ-VD2005DU-4I-8K-4H",
+    name: "AZ-VD2005DU-4I-8K-4H",
     title: "Dahua 20CH UHD NETWORK VIDEO DECODER",
     description: [
       "20-ch HDMI signal output port.",
@@ -9531,9 +9531,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD1205DU-4I-8K": {
-    id: "LP-VD1205DU-4I-8K",
-    name: "LP-VD1205DU-4I-8K",
+  "AZ-VD1205DU-4I-8K": {
+    id: "AZ-VD1205DU-4I-8K",
+    name: "AZ-VD1205DU-4I-8K",
     title: "Dahua 12CH UHD NETWORK VIDEO DECODER",
     description: [
       "12-channel HDMI video output.",
@@ -9604,9 +9604,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD0405DU-2I-8K": {
-    id: "LP-VD0405DU-2I-8K",
-    name: "LP-VD0405DU-2I-8K",
+  "AZ-VD0405DU-2I-8K": {
+    id: "AZ-VD0405DU-2I-8K",
+    name: "AZ-VD0405DU-2I-8K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "2CH@8K/10CH@4K/36CH@1080P/144CH@D1 real-time decoding ability",
@@ -9660,9 +9660,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD0105DH-4K": {
-    id: "LP-VD0105DH-4K",
-    name: "LP-VD0105DH-4K",
+  "AZ-VD0105DH-4K": {
+    id: "AZ-VD0105DH-4K",
+    name: "AZ-VD0105DH-4K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "Designed for standalone operator viewers",
@@ -9712,9 +9712,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD2105DH-4I-4K": {
-    id: "LP-VD2105DH-4I-4K",
-    name: "LP-VD2105DH-4I-4K",
+  "AZ-VD2105DH-4I-4K": {
+    id: "AZ-VD2105DH-4I-4K",
+    name: "AZ-VD2105DH-4I-4K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "Standard 2.5U case, elegant appearance",
@@ -9771,9 +9771,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD1805DH-4I-4K": {
-    id: "LP-VD1805DH-4I-4K",
-    name: "LP-VD1805DH-4I-4K",
+  "AZ-VD1805DH-4I-4K": {
+    id: "AZ-VD1805DH-4I-4K",
+    name: "AZ-VD1805DH-4I-4K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "Standard 2.5U case, elegant appearance",
@@ -9830,9 +9830,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD1505DH-4I-4K": {
-    id: "LP-VD1505DH-4I-4K",
-    name: "LP-VD1505DH-4I-4K",
+  "AZ-VD1505DH-4I-4K": {
+    id: "AZ-VD1505DH-4I-4K",
+    name: "AZ-VD1505DH-4I-4K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "Standard 2.5U case, elegant appearance",
@@ -9889,9 +9889,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-VD1205DH-4I-4K": {
-    id: "LP-VD1205DH-4I-4K",
-    name: "LP-VD1205DH-4I-4K",
+  "AZ-VD1205DH-4I-4K": {
+    id: "AZ-VD1205DH-4I-4K",
+    name: "AZ-VD1205DH-4I-4K",
     title: "Ultra-HD Network Video Decoder",
     description: [
       "Standard 2.5U case, elegant appearance",
@@ -9948,9 +9948,9 @@ export const productDetails: Record<string, ProductDetail> = {
       }
     ]
   },
-  "LP-EB0105HI-4K": {
-    id: "LP-EB0105HI-4K",
-    name: "LP-EB0105HI-4K",
+  "AZ-EB0105HI-4K": {
+    id: "AZ-EB0105HI-4K",
+    name: "AZ-EB0105HI-4K",
     title: "1 Channel Distributed Encoding Box",
     description: [
       "Support 1ch DP, 1ch HDMI independent collection interfaces.Support 4K and H.265 real-time encoding",
@@ -10261,66 +10261,136 @@ export const productDetails: Record<string, ProductDetail> = {
 
 export const categories = [
   {
-    id: "control",
-    name: "Control",
-    description: "Advanced control solutions for seamless operation and monitoring.",
+    id: "led-displays",
+    name: "LED Displays",
+    description: "High-brightness and fine-pitch LED displays for indoor and outdoor use.",
     subcategories: [
       {
-        id: "matrix",
-        name: "Matrix",
+        id: "indoor-fine-pixel",
+        name: "Indoor Fine Pixel",
         products: [
-          { name: "LP-CON2100-0416H", subtitle: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
-          { name: "LP-CON2100-0412H", subtitle: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
-          { name: "LP-CON2100-0410H", subtitle: "Lamps Plus 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
-          { name: "LP-CON3000-7U", subtitle: "Multi-screen Controller", image: "/images/matrix_2.png" },
-          { name: "LP-CON3000-4U", subtitle: "Multi-screen Controller", image: "/images/matrix_2.png" },
-          { name: "LP-M70-D-0205HO(-H)", subtitle: "2 Channel HDMI Distributed Decoding Box", image: "/images/matrix_1.png" },
-          { name: "LP-CON3000-M", subtitle: "Multi-screen Controller", image: "/images/matrix_3.png" },
-          { name: "LP-M60-7U", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
-          { name: "LP-M70-4U-E", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
-          { name: "LP-M60-12U", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
+          { name: "AZ-SIA1.2-CK", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P1.2", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA4-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P4", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA3-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P3", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA2.5-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P2.5", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA2-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P2", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.8-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P1.8", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.5-SC", subtitle: "Aztech indoor 640x480 Front Maintenance fixed screen LED_P1.5", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-GIA3.91-SE", subtitle: "Aztech Indoor Front Maintenance fixed screen LED_P3.91", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.5-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.2-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA0.9-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.5-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.2-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA0.9-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.8-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.5-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.2-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA0.9-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.5-LS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-SIA1.2-LS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-MIA108-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-MIA163-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-MIA135-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-MIA135-CF", subtitle: "COB Foldable All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
         ]
       },
       {
-        id: "keyboards",
-        name: "Keyboards",
+        id: "indoor-fixed",
+        name: "Indoor Fixed",
         products: [
-          { name: "LP-KB5200(-F)", subtitle: "Android Network Control Keyboard", image: "/images/keyboard_1.png" },
-          { name: "LP-KB1000-E", subtitle: "Network Keyboard", image: "/images/keyboard_2.png" },
-          { name: "LP-KB1000", subtitle: "Network Keyboard", image: "/images/keyboard_2.png" },
+          { name: "AZ-GIA4.81-SH", subtitle: "Aztech General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-GIA3.91-SH", subtitle: "Aztech General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-GIA2.97-SH", subtitle: "Aztech General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-GIA2.61-SH", subtitle: "Aztech General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-GIA1.95-SH", subtitle: "Aztech General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
         ]
       },
       {
-        id: "decoders",
-        name: "Decoders",
+        id: "outdoor-fixed",
+        name: "Outdoor Fixed",
         products: [
-          { name: "LP-VD0200FX-A01", subtitle: "Lamps Plus 2CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
-          { name: "LP-VD1605DU-4I-8K-2U2H", subtitle: "Lamps Plus 16CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
-          { name: "LP-VD2005DU-4I-8K-4H", subtitle: "Lamps Plus 20CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
-          { name: "LP-VD1205DU-4I-8K", subtitle: "Lamps Plus 12CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
-          { name: "LP-VD0405DU-2I-8K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
-          { name: "LP-VD0105DH-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
-          { name: "LP-VD2105DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
-          { name: "LP-VD1805DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
-          { name: "LP-VD1505DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
-          { name: "LP-VD1205DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-GOA10-PH", subtitle: "Aztech outdoor 960x960 front and rear maintenance fixed screen", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA10-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA8-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA6-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA5-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA4.81-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA3.91-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-GOA2.97-PH", subtitle: "Aztech General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
+        ]
+      },
+
+
+      {
+        id: "stadium",
+        name: "Stadium",
+        products: [
+          { name: "AZ-VOA10-EH", subtitle: "Aztech Outdoor Stadium LED", image: "/images/led_stadium.png" },
         ]
       },
       {
-        id: "encoder",
-        name: "Encoder",
+        id: "commercial",
+        name: "Commercial",
         products: [
-          { name: "LP-EB0105HI-4K", subtitle: "1 Channel Distributed Encoding Box", image: "/images/encoder_1.png" },
+          { name: "AZ-MIA135-AC", subtitle: "Aztech Commercial All-In-One LED", image: "/images/led_conference.png" },
         ]
       },
       {
-        id: "led-display-control",
-        name: "LED Display Control",
+        id: "conference-all-in-one",
+        name: "Conference All-In-One",
         products: [
-          { name: "H Series", subtitle: "Flagship Video Splicing Processor", image: "/images/led_display_control_h_series.png" },
-          { name: "VX Pro Series", subtitle: "LED Display Video Controller", image: "/images/led_display_control_vx_pro.png" },
-          { name: "TB Series", subtitle: "Taurus Series Multimedia Player", image: "/images/led_display_control_tb.png" },
-          { name: "TU Series", subtitle: "Intelligent Control Solution", image: "/images/led_display_control_tu.png" },
+          { name: "AZ-MIA216-EH", subtitle: "Aztech Indoor ALL-In-One LED", image: "/images/led_conference.png" },
+          { name: "AZ-MIA163-EH", subtitle: "Aztech Indoor ALL-In-One LED", image: "/images/led_conference.png" },
+          { name: "AZ-MIA135-EH", subtitle: "Aztech Indoor ALL-In-One LED", image: "/images/led_conference.png" },
+          { name: "AZ-MIA108-EH", subtitle: "Aztech Indoor ALL-In-One LED", image: "/images/led_conference.png" },
+        ]
+      },
+      {
+        id: "led-module",
+        name: "LED Module",
+        products: [
+          { name: "AZ-EOA10S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA8S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA6S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA5S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA4S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA3S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EOA2.5S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EIA2.5S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EIA2S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EIA1.8S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EIA1.2S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+          { name: "AZ-EIA1.5S-C", subtitle: "Aztech LED Module", image: "/images/premium_led_module.png" },
+        ]
+      },
+      {
+        id: "rental-led-display",
+        name: "Rental LED Display",
+        products: [
+          { name: "AZ-RIA2.61-SH", subtitle: "Aztech Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA1.95-SH", subtitle: "Aztech Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA3.91-SH", subtitle: "Aztech Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.97-SH", subtitle: "Aztech Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-ROA4.81-MH", subtitle: "Aztech Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-ROA3.91-MH", subtitle: "Aztech Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-RIA1.95-RF", subtitle: "Aztech Creative Flexible Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-ROA3.91-REL-V2", subtitle: "Aztech Ultimate Convenience Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-ROA2.97-REL-V2", subtitle: "Aztech Ultimate Convenience Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-RIA3.91-RE-V2", subtitle: "Aztech Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.97-RE-V2", subtitle: "Aztech Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.61-RE-V2", subtitle: "Aztech Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA1.95-RE-G-V2", subtitle: "Aztech Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA3.91-RC", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.97-RC", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.61-RC", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA1.95-RC", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-ROA4.81-REL", subtitle: "Aztech General Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-ROA3.91-REL", subtitle: "Aztech General Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
+          { name: "AZ-RIA3.91-RE", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.97-RE", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA2.61-RE", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "AZ-RIA1.95-RE", subtitle: "Aztech General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
         ]
       }
     ]
@@ -10334,10 +10404,10 @@ export const categories = [
         id: "essential",
         name: "Essential Series",
         products: [
-          { name: "LP-LS490UCM-EF", subtitle: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_1.png" },
-          { name: "LP-LS550UEM-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_1.png" },
-          { name: "LP-LS550UEH-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_1.png" },
-          { name: "LP-LS550UCM-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_1.png" },
+          { name: "AZ-LS490UCM-EF", subtitle: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_1.png" },
+          { name: "AZ-LS550UEM-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_1.png" },
+          { name: "AZ-LS550UEH-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_1.png" },
+          { name: "AZ-LS550UCM-EF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_1.png" },
         ]
       },
       {
@@ -10349,16 +10419,16 @@ export const categories = [
         id: "ultra",
         name: "Ultra Series",
         products: [
-          { name: "LP-LS650KCM-UF", subtitle: "Lamps Plus 65 inch 3.5mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550UEM-UF", subtitle: "Lamps Plus 55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550UEH-UF", subtitle: "Lamps Plus 55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550KDM-UF", subtitle: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550KDH-UF", subtitle: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS460UDM-UF", subtitle: "46\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550UDM-UF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550UEH-UG", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS550UCM-UF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_2.png" },
-          { name: "LP-LS490UCM-UF", subtitle: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS650KCM-UF", subtitle: "Aztech 65 inch 3.5mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550UEM-UF", subtitle: "Aztech 55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550UEH-UF", subtitle: "Aztech 55 inch 0.88mm LCD Display Wall Unit (LCD DISPLAY)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550KDM-UF", subtitle: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550KDH-UF", subtitle: "55\" UHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS460UDM-UF", subtitle: "46\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550UDM-UF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 1.7mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550UEH-UG", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 0.88mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS550UCM-UF", subtitle: "55\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_2.png" },
+          { name: "AZ-LS490UCM-UF", subtitle: "49\" FHD Video Wall Display Unit (Ultra Narrow Bezel 3.5mm)", image: "/images/lcd_video_wall_2.png" },
         ]
       }
     ]
@@ -10372,207 +10442,137 @@ export const categories = [
         id: "lite",
         name: "Lite Series",
         products: [
-          { name: "LP-DH65-LAI400L", subtitle: "Lamps Plus 65 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH55-LAI400L", subtitle: "Lamps Plus 55 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH50-LAI400L", subtitle: "Lamps Plus 50 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH43-LAI400L", subtitle: "Lamps Plus 43 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH65-LAI400L", subtitle: "Aztech 65 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH55-LAI400L", subtitle: "Aztech 55 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH50-LAI400L", subtitle: "Aztech 50 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH43-LAI400L", subtitle: "Aztech 43 inch LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
         ]
       },
       {
         id: "standard",
         name: "Standard Series",
         products: [
-          { name: "LP-DH55-SAI400TL", subtitle: "Lamps Plus 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH43-SAI400TL", subtitle: "Lamps Plus 43 Inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH55-SAI400L", subtitle: "Lamps Plus 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH65-SAI400L", subtitle: "Lamps Plus 65 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH43-SAI400L", subtitle: "Lamps Plus 43 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH43-SWI200", subtitle: "43\" Wall-mounted Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH32-SAI200L", subtitle: "Lamps Plus 32 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH22-SAI200L", subtitle: "Lamps Plus 21.5 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DV65-SAI400TL", subtitle: "Lamps Plus 65 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV55-SAI400TL", subtitle: "Lamps Plus 55 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV43-SAI400TL", subtitle: "Lamps Plus 43 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV75-SAI400L", subtitle: "Lamps Plus 75 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV65-SAI400L", subtitle: "Lamps Plus 65 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV55-SAI400L", subtitle: "Lamps Plus 55 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV43-SAI400L", subtitle: "Lamps Plus 43 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
-          { name: "LP-DV43-SAI400K", subtitle: "Lamps Plus 43 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DH55-SAI400TL", subtitle: "Aztech 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH43-SAI400TL", subtitle: "Aztech 43 Inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH55-SAI400L", subtitle: "Aztech 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH65-SAI400L", subtitle: "Aztech 65 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH43-SAI400L", subtitle: "Aztech 43 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH43-SWI200", subtitle: "43\" Wall-mounted Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH32-SAI200L", subtitle: "Aztech 32 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH22-SAI200L", subtitle: "Aztech 21.5 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DV65-SAI400TL", subtitle: "Aztech 65 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV55-SAI400TL", subtitle: "Aztech 55 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV43-SAI400TL", subtitle: "Aztech 43 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV75-SAI400L", subtitle: "Aztech 75 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV65-SAI400L", subtitle: "Aztech 65 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV55-SAI400L", subtitle: "Aztech 55 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV43-SAI400L", subtitle: "Aztech 43 inch Indoor Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
+          { name: "AZ-DV43-SAI400K", subtitle: "Aztech 43 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_vertical.png" },
         ]
       },
       {
         id: "pro",
         name: "Pro Series",
         products: [
-          { name: "LP-DH65-WAI200L", subtitle: "Lamps Plus 65 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
-          { name: "LP-DH55-WAI200L", subtitle: "Lamps Plus 55 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
-          { name: "LP-DH43-WAI200L", subtitle: "Lamps Plus 43 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
-          { name: "LP-DH32-WAI200L", subtitle: "Lamps Plus 32 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
-          { name: "LP-DH65-HAI400L", subtitle: "Lamps Plus 65 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH55-HAI400L", subtitle: "Lamps Plus 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
-          { name: "LP-DH43-HAI400L", subtitle: "Lamps Plus 43 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH65-WAI200L", subtitle: "Aztech 65 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
+          { name: "AZ-DH55-WAI200L", subtitle: "Aztech 55 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
+          { name: "AZ-DH43-WAI200L", subtitle: "Aztech 43 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
+          { name: "AZ-DH32-WAI200L", subtitle: "Aztech 32 Inch LCD Digital Signage", image: "/images/lcd_digital_signage_hanging.png" },
+          { name: "AZ-DH65-HAI400L", subtitle: "Aztech 65 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH55-HAI400L", subtitle: "Aztech 55 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
+          { name: "AZ-DH43-HAI400L", subtitle: "Aztech 43 inch Indoor Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_1.png" },
         ]
       },
       {
         id: "outdoor",
         name: "Outdoor Series",
         products: [
-          { name: "LP-DH65-EAO400L", subtitle: "Lamps Plus 65 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
-          { name: "LP-DH55-EAO400L", subtitle: "Lamps Plus 55 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
-          { name: "LP-DH43-EAO400L", subtitle: "Lamps Plus 43 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
-          { name: "LP-DV65-EAO400L", subtitle: "Lamps Plus 65 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
-          { name: "LP-DV55-EAO400L", subtitle: "Lamps Plus 55 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
-          { name: "LP-DV43-EAO400L", subtitle: "Lamps Plus 43 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
+          { name: "AZ-DH65-EAO400L", subtitle: "Aztech 65 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
+          { name: "AZ-DH55-EAO400L", subtitle: "Aztech 55 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
+          { name: "AZ-DH43-EAO400L", subtitle: "Aztech 43 inch Wall-mounted LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_wall.png" },
+          { name: "AZ-DV65-EAO400L", subtitle: "Aztech 65 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
+          { name: "AZ-DV55-EAO400L", subtitle: "Aztech 55 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
+          { name: "AZ-DV43-EAO400L", subtitle: "Aztech 43 inch Vertical LCD Digital Signage", image: "/images/lcd_digital_signage_outdoor_vertical.png" },
         ]
       },
       {
         id: "media-player",
         name: "Media Player",
         products: [
-          { name: "LP-DS04-AI400", subtitle: "Lamps Plus Media Player Box", image: "/images/lcd_digital_signage_media_player.png" },
+          { name: "AZ-DS04-AI400", subtitle: "Aztech Media Player Box", image: "/images/lcd_digital_signage_media_player.png" },
         ]
       },
       {
         id: "others",
         name: "Others",
         products: [
-          { name: "LP-AI-W", subtitle: "USB Wi-Fi dongle", image: "/images/lcd_digital_signage_others_wifi.png" },
-          { name: "LP-VM10-SAI100", subtitle: "Lamps Plus 10.1\" Wall-mounted Digital Signage", image: "/images/lcd_digital_signage_others_10inch.png" },
+          { name: "AZ-AI-W", subtitle: "USB Wi-Fi dongle", image: "/images/lcd_digital_signage_others_wifi.png" },
+          { name: "AZ-VM10-SAI100", subtitle: "Aztech 10.1\" Wall-mounted Digital Signage", image: "/images/lcd_digital_signage_others_10inch.png" },
         ]
       }
     ]
   },
   {
-    id: "led-displays",
-    name: "LED Displays",
-    description: "High-brightness and fine-pitch LED displays for indoor and outdoor use.",
+    id: "control",
+    name: "Control",
+    description: "Advanced control solutions for seamless operation and monitoring.",
     subcategories: [
       {
-        id: "indoor-fine-pixel",
-        name: "Indoor Fine Pixel",
+        id: "matrix",
+        name: "Matrix",
         products: [
-          { name: "LP-SIA1.2-CK", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P1.2", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA4-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P4", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA3-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P3", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA2.5-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P2.5", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA2-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P2", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.8-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P1.8", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.5-SC", subtitle: "Lamps Plus indoor 640x480 Front Maintenance fixed screen LED_P1.5", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-GIA3.91-SE", subtitle: "Lamps Plus Indoor Front Maintenance fixed screen LED_P3.91", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.5-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.2-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA0.9-AH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.5-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.2-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA0.9-CH", subtitle: "Flip COB Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.8-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.5-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.2-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA0.9-SS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.5-LS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-SIA1.2-LS", subtitle: "Indoor Fine Pixel Pitch LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-MIA108-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-MIA163-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-MIA135-CC", subtitle: "Commercial All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-MIA135-CF", subtitle: "COB Foldable All-In-One LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-CON2100-0416H", subtitle: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
+          { name: "AZ-CON2100-0412H", subtitle: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
+          { name: "AZ-CON2100-0410H", subtitle: "Aztech 1.5U EMBEDDED MULTI-SCREEN CONTROLLER", image: "/images/matrix_3.png" },
+          { name: "AZ-CON3000-7U", subtitle: "Multi-screen Controller", image: "/images/matrix_2.png" },
+          { name: "AZ-CON3000-4U", subtitle: "Multi-screen Controller", image: "/images/matrix_2.png" },
+          { name: "AZ-M70-D-0205HO(-H)", subtitle: "2 Channel HDMI Distributed Decoding Box", image: "/images/matrix_1.png" },
+          { name: "AZ-CON3000-M", subtitle: "Multi-screen Controller", image: "/images/matrix_3.png" },
+          { name: "AZ-M60-7U", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
+          { name: "AZ-M70-4U-E", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
+          { name: "AZ-M60-12U", subtitle: "Multi-service Video Management Platform", image: "/images/matrix_2.png" },
         ]
       },
       {
-        id: "indoor-fixed",
-        name: "Indoor Fixed",
+        id: "keyboards",
+        name: "Keyboards",
         products: [
-          { name: "LP-GIA4.81-SH", subtitle: "Lamps Plus General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-GIA3.91-SH", subtitle: "Lamps Plus General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-GIA2.97-SH", subtitle: "Lamps Plus General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-GIA2.61-SH", subtitle: "Lamps Plus General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
-          { name: "LP-GIA1.95-SH", subtitle: "Lamps Plus General Indoor Fixed LED", image: "/images/premium_fine_pixel_led.png" },
+          { name: "AZ-KB5200(-F)", subtitle: "Android Network Control Keyboard", image: "/images/keyboard_1.png" },
+          { name: "AZ-KB1000-E", subtitle: "Network Keyboard", image: "/images/keyboard_2.png" },
+          { name: "AZ-KB1000", subtitle: "Network Keyboard", image: "/images/keyboard_2.png" },
         ]
       },
       {
-        id: "outdoor-fixed",
-        name: "Outdoor Fixed",
+        id: "decoders",
+        name: "Decoders",
         products: [
-          { name: "LP-GOA10-PH", subtitle: "Lamps Plus outdoor 960x960 front and rear maintenance fixed screen", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA10-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA8-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA6-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA5-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA4.81-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA3.91-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-GOA2.97-PH", subtitle: "Lamps Plus General Outdoor Fixed LED", image: "/images/clean_outdoor_led.png" },
-        ]
-      },
-
-
-      {
-        id: "stadium",
-        name: "Stadium",
-        products: [
-          { name: "LP-VOA10-EH", subtitle: "Lamps Plus Outdoor Stadium LED", image: "/images/led_stadium.png" },
+          { name: "AZ-VD0200FX-A01", subtitle: "Aztech 2CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
+          { name: "AZ-VD1605DU-4I-8K-2U2H", subtitle: "Aztech 16CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
+          { name: "AZ-VD2005DU-4I-8K-4H", subtitle: "Aztech 20CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
+          { name: "AZ-VD1205DU-4I-8K", subtitle: "Aztech 12CH UHD NETWORK VIDEO DECODER", image: "/images/decoder_1.png" },
+          { name: "AZ-VD0405DU-2I-8K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-VD0105DH-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-VD2105DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-VD1805DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-VD1505DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
+          { name: "AZ-VD1205DH-4I-4K", subtitle: "Ultra-HD Network Video Decoder", image: "/images/decoder_1.png" },
         ]
       },
       {
-        id: "commercial",
-        name: "Commercial",
+        id: "encoder",
+        name: "Encoder",
         products: [
-          { name: "LP-MIA135-AC", subtitle: "Lamps Plus Commercial All-In-One LED", image: "/images/led_conference.png" },
+          { name: "AZ-EB0105HI-4K", subtitle: "1 Channel Distributed Encoding Box", image: "/images/encoder_1.png" },
         ]
       },
       {
-        id: "conference-all-in-one",
-        name: "Conference All-In-One",
+        id: "led-display-control",
+        name: "LED Display Control",
         products: [
-          { name: "LP-MIA216-EH", subtitle: "Lamps Plus Indoor ALL-In-One LED", image: "/images/led_conference.png" },
-          { name: "LP-MIA163-EH", subtitle: "Lamps Plus Indoor ALL-In-One LED", image: "/images/led_conference.png" },
-          { name: "LP-MIA135-EH", subtitle: "Lamps Plus Indoor ALL-In-One LED", image: "/images/led_conference.png" },
-          { name: "LP-MIA108-EH", subtitle: "Lamps Plus Indoor ALL-In-One LED", image: "/images/led_conference.png" },
-        ]
-      },
-      {
-        id: "led-module",
-        name: "LED Module",
-        products: [
-          { name: "LP-EOA10S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA8S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA6S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA5S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA4S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA3S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EOA2.5S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EIA2.5S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EIA2S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EIA1.8S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EIA1.2S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-          { name: "LP-EIA1.5S-C", subtitle: "Lamps Plus LED Module", image: "/images/premium_led_module.png" },
-        ]
-      },
-      {
-        id: "rental-led-display",
-        name: "Rental LED Display",
-        products: [
-          { name: "LP-RIA2.61-SH", subtitle: "Lamps Plus Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA1.95-SH", subtitle: "Lamps Plus Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA3.91-SH", subtitle: "Lamps Plus Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.97-SH", subtitle: "Lamps Plus Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-ROA4.81-MH", subtitle: "Lamps Plus Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-ROA3.91-MH", subtitle: "Lamps Plus Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-RIA1.95-RF", subtitle: "Lamps Plus Creative Flexible Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-ROA3.91-REL-V2", subtitle: "Lamps Plus Ultimate Convenience Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-ROA2.97-REL-V2", subtitle: "Lamps Plus Ultimate Convenience Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-RIA3.91-RE-V2", subtitle: "Lamps Plus Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.97-RE-V2", subtitle: "Lamps Plus Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.61-RE-V2", subtitle: "Lamps Plus Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA1.95-RE-G-V2", subtitle: "Lamps Plus Ultimate Convenience Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA3.91-RC", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.97-RC", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.61-RC", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA1.95-RC", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-ROA4.81-REL", subtitle: "Lamps Plus General Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-ROA3.91-REL", subtitle: "Lamps Plus General Outdoor Rental LED", image: "/images/clean_outdoor_led.png" },
-          { name: "LP-RIA3.91-RE", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.97-RE", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA2.61-RE", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
-          { name: "LP-RIA1.95-RE", subtitle: "Lamps Plus General Indoor Rental LED", image: "/images/led_indoor_rental.png" },
+          { name: "H Series", subtitle: "Flagship Video Splicing Processor", image: "/images/led_display_control_h_series.png" },
+          { name: "VX Pro Series", subtitle: "LED Display Video Controller", image: "/images/led_display_control_vx_pro.png" },
+          { name: "TB Series", subtitle: "Taurus Series Multimedia Player", image: "/images/led_display_control_tb.png" },
+          { name: "TU Series", subtitle: "Intelligent Control Solution", image: "/images/led_display_control_tu.png" },
         ]
       }
     ]

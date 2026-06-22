@@ -222,7 +222,7 @@ export function ContactSection() {
                     >
                       <address className="font-sans text-[0.85rem] text-[var(--text-body)] not-italic leading-[1.6] group-hover:text-[var(--accent)] transition-colors">
                         <strong className="text-[var(--text-primary)] font-semibold block mb-0.5 group-hover:text-[var(--accent)] transition-colors">
-                          LAMPS PLUS ELECTRONICS TRADING LLC
+                          AZTECH ELECTRONICS TRADING LLC
                         </strong>
                         Dragon Mart 1<br />
                         AAD01, Dragon Mart 1<br />
