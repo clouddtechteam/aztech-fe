@@ -149,7 +149,7 @@ export function Footer() {
                 NRL Warehouse 55, Dubai, UAE
               </address>
               <address className="not-italic font-sans text-[0.82rem] text-[var(--text-secondary)] leading-[1.7] mb-4">
-                AZTECH ELECTRONICS TRADING LLC<br />
+                LAMPS PLUS ELECTRONICS TRADING LLC<br />
                 Sister Concern – Dragon Mart 1<br />
                 AAD01, Dragon Mart 1<br />
                 International City, Dubai, UAE
@@ -173,7 +173,7 @@ export function Footer() {
               <p className="font-sans text-[0.75rem] text-[var(--text-secondary)]/70 hidden sm:block">
                 Head Office: <span className="font-medium text-[var(--text-secondary)]">AZTECH GENERAL TRADING LLC, Dubai</span>
                 <span className="mx-1.5 text-white/20">·</span>
-                Sister Concern: <span className="font-medium text-[var(--text-secondary)]">AZTECH ELECTRONICS TRADING LLC</span>
+                Sister Concern: <span className="font-medium text-[var(--text-secondary)]">LAMPS PLUS ELECTRONICS TRADING LLC</span>
               </p>
             </div>
             <div className="flex flex-col gap-1.5 lg:text-right">

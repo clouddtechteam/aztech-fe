@@ -55,7 +55,7 @@ export function AboutSection() {
               </div>
               <div className="flex-1 flex flex-col gap-0.5 bg-[var(--bg-secondary)] border border-[var(--border-light)] rounded-[var(--radius-sm)] px-4 py-3">
                 <span className="font-sans text-[0.68rem] font-bold uppercase tracking-[0.12em] text-[var(--copper)]">Sister Concern</span>
-                <span className="font-sans text-[0.85rem] font-medium text-[var(--text-primary)] leading-[1.4]">AZTECH ELECTRONICS TRADING LLC</span>
+                <span className="font-sans text-[0.85rem] font-medium text-[var(--text-primary)] leading-[1.4]">LAMPS PLUS ELECTRONICS TRADING LLC</span>
                 <span className="font-sans text-[0.78rem] text-[var(--text-muted)]">Dubai, UAE</span>
               </div>
             </div>
