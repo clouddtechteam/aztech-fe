@@ -1,16 +1,6 @@
 import Image from "next/image"
 import { Phone, Linkedin, Instagram, Facebook } from "lucide-react"
-
-const products = [
-  { label: "HD LED Display", href: "/#product-hd-led-display" },
-  { label: "Indoor LED Display", href: "/#product-indoor-led-display" },
-  { label: "Outdoor DIP LED", href: "/#product-outdoor-dip-led-display" },
-  { label: "Outdoor SMD LED", href: "/#product-outdoor-smd-led-display" },
-  { label: "Transparent Glass LED", href: "/#product-transparent-glass-led" },
-  { label: "Poster LED Display", href: "/#product-poster-led-display" },
-  { label: "Floor LED Display", href: "/#product-floor-led-display" },
-  { label: "Spherical LED Display", href: "/#product-spherical-led-display" },
-]
+import { categories } from "@/lib/product-data"
 
 const solutions = [
   { label: "Retail & Malls", href: "/#solutions-retail" },
@@ -88,10 +78,10 @@ export function Footer() {
                 Products
               </h3>
               <ul className="flex flex-col gap-2.5">
-                {products.map((product) => (
-                  <li key={product.label}>
-                    <a href={product.href} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
-                      {product.label}
+                {categories.map((category) => (
+                  <li key={category.id}>
+                    <a href={`/?category=${category.id}#products`} className="font-sans text-[0.85rem] text-[var(--text-secondary)] hover:text-[var(--accent)] transition-colors">
+                      {category.name}
                     </a>
                   </li>
                 ))}

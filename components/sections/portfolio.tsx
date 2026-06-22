@@ -1,50 +1,27 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
+import { useEffect, useRef } from "react"
 import { ArrowUpRight } from "lucide-react"
 import { useReveal } from "@/hooks/use-reveal"
 import Image from "next/image"
 
-const filters = [
-  "All",
-  "LED Screens",
-  "Outdoor",
-  "LCD & Video Wall",
-  "LED Lighting",
-  "Events",
-]
+
 
 const projects = [
-  { name: "ADNOC Headquarters", category: "LED Screens", location: "Abu Dhabi", filter: ["LED Screens", "Government"], image: "/images/proj_adnoc_1774784409133.webp" },
-  { name: "RTA Dubai", category: "Government", location: "Dubai", filter: ["Government"], image: "/images/proj_rta_1774784465970.webp" },
-  { name: "Dubai Cricket Stadium", category: "Sports", location: "Dubai", filter: ["Outdoor", "LED Screens"], image: "/images/proj_cricket_1774784549601.webp" },
-  { name: "Wafi Mall", category: "Retail", location: "Dubai", filter: ["LED Screens"], image: "/images/proj_wafi_1774784593202.webp" },
-  { name: "Dubai Mall", category: "Retail", location: "Dubai", filter: ["LED Screens"], image: "/images/proj_dubaimall_1774784635796.webp" },
-  { name: "Zulekha Hospital", category: "Healthcare", location: "Dubai", filter: ["LED Screens", "LCD & Video Wall"], image: "/images/proj_zulekha.webp" },
-  { name: "Rove Hotels Group", category: "Hospitality", location: "Dubai", filter: ["LED Screens"], image: "/images/proj_rove.webp" },
-  { name: "Parliament Palace Abu Dhabi", category: "Government", location: "Abu Dhabi", filter: ["Government", "LED Screens"], image: "/images/proj_parliament.webp" },
-  { name: "GEMS Schools UAE", category: "Education", location: "Dubai", filter: ["LED Screens"], image: "/images/proj_gems.webp" },
-  { name: "Carrefour UAE", category: "Retail", location: "Multiple", filter: ["LED Screens"], image: "/images/proj_carrefour.webp" },
-  { name: "Expo 2020 Dubai", category: "Events", location: "Dubai", filter: ["Events", "LED Screens"], image: "/images/proj_expo.webp" },
-  { name: "Oberoi Hotel", category: "Hospitality", location: "Dubai", filter: ["LED Screens", "LED Lighting"], image: "/images/proj_oberoi.webp" },
-  { name: "Dubai Media City P1.86", category: "Corporate", location: "Dubai", filter: ["LED Screens"], image: "/images/proj_mediacity.webp" },
-  { name: "Ajman Municipality", category: "Government", location: "Ajman", filter: ["Government", "LED Screens"], image: "/images/proj_ajman.webp" },
-  { name: "Fujairah Aviation Club", category: "Events", location: "Fujairah", filter: ["Events", "Outdoor"], image: "/images/proj_fujairah.webp" },
-  { name: "Sheikh Hamdan Palace", category: "Government", location: "Dubai", filter: ["Government", "LED Lighting"], image: "/images/proj_hamdan.webp" },
-  { name: "Curve Screen Oman", category: "International", location: "Oman", filter: ["LED Screens"], image: "/images/proj_oman.webp" },
-  { name: "Dubai Cricket Stadium Perimeter", category: "Sports", location: "Dubai", filter: ["Outdoor"], image: "/images/proj_perimeter.webp" },
+  { name: "Dubai Municipality", category: "Government", location: "Dubai", filter: ["Government", "LED Screens"], image: "/images/proj_dubai_municipality.jpg" },
+  { name: "Al Jalila Foundation", category: "Healthcare", location: "Dubai Healthcare City", filter: ["Healthcare", "LED Screens"], image: "/images/proj_al_jalila.jpg" },
+  { name: "Toyota Showroom", category: "Retail", location: "Dubai Festival City", filter: ["Retail", "LED Screens"], image: "/images/proj_toyota_showroom.jpg" },
+  { name: "Emirates Global Aluminium", category: "Corporate", location: "Abu Dhabi", filter: ["Corporate", "LCD & Video Wall"], image: "/images/proj_ega_abudhabi.jpg" },
+  { name: "Nakheel Sales Center", category: "Corporate", location: "Palm Jumeirah", filter: ["Corporate", "LED Screens"], image: "/images/proj_nakheel_sales.jpg" },
+  { name: "Fujairah Chess Club", category: "Sports", location: "Fujairah", filter: ["Sports", "LED Screens"], image: "/images/proj_fujairah_chess.jpg" },
+  { name: "Dubai Police", category: "Government", location: "Dubai", filter: ["Government", "Events", "LED Screens"], image: "/images/proj_dubai_police.jpg" },
 ]
 
 // Create varied aspect ratios for masonry effect
 const aspectRatios = ["4/3", "1/1", "16/9", "4/3", "1/1", "16/9"]
 
 export function PortfolioSection() {
-  const [activeFilter, setActiveFilter] = useState("All")
   const { ref, isVisible } = useReveal()
-
-  const filteredProjects = activeFilter === "All" 
-    ? projects 
-    : projects.filter(p => p.filter.includes(activeFilter))
 
   return (
     <section 
@@ -65,26 +42,9 @@ export function PortfolioSection() {
           </p>
         </div>
 
-        {/* Filter tabs */}
-        <div className="flex flex-wrap gap-2 mb-10 pb-2">
-          {filters.map((filter) => (
-            <button
-              key={filter}
-              onClick={() => setActiveFilter(filter)}
-              className={`px-4 py-2 font-sans text-[0.82rem] font-medium rounded-[var(--radius-full)] border transition-all duration-200 ${
-                activeFilter === filter
-                  ? "bg-[var(--accent)] text-white border-[var(--accent)]"
-                  : "bg-[var(--bg-tertiary)] text-[var(--text-secondary)] border-[var(--border-light)] hover:border-[var(--accent)] hover:text-[var(--accent)]"
-              }`}
-            >
-              {filter}
-            </button>
-          ))}
-        </div>
-
         {/* Projects Grid */}
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-          {filteredProjects.map((project, index) => (
+          {projects.map((project, index) => (
             <div 
               key={project.name}
               className="group relative overflow-hidden rounded-[var(--radius-md)] cursor-pointer aspect-[4/3]"

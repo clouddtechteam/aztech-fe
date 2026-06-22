@@ -1,122 +1,280 @@
 "use client"
 
-import { useEffect, useRef, useState } from "react"
-import { useReveal } from "@/hooks/use-reveal"
+import { useRef, useState, useEffect } from "react"
 import Image from "next/image"
-import { 
-  Monitor, Sun, Layers, Sparkles, 
-  CircleDot, Grid3x3, Square, LayoutGrid,
-  Tv, Globe, Maximize, Building,
-  Car, TrafficCone, Thermometer, Box
-} from "lucide-react"
+import { motion, AnimatePresence, useInView } from "framer-motion"
+import { Monitor, Sun, Layers, Car, ArrowRight } from "lucide-react"
+import { useSearchParams } from "next/navigation"
+import { ProductModal } from "@/components/ui/product-modal"
+import { productDetails, categories } from "@/lib/product-data"
 
-const products = [
-  { icon: Monitor, name: "HD LED Display", description: "Ultra-high resolution, pixel pitch from P1.2", tag: "Indoor", image: "/images/prod_1.webp" },
-  { icon: Tv, name: "Indoor LED Display", description: "Vibrant colors for retail, corporate and hospitality", tag: "Indoor", image: "/images/prod_2.webp" },
-  { icon: Sun, name: "Outdoor DIP LED Display", description: "Weatherproof, 5000 nits brightness for harsh UAE sun", tag: "Outdoor", image: "/images/prod_3.webp" },
-  { icon: Maximize, name: "Outdoor SMD LED Display", description: "Wide viewing angle, excellent color uniformity", tag: "Outdoor", image: "/images/prod_4.webp" },
-  { icon: Box, name: "Die-Cast Aluminum LED", description: "Lightweight fast-deploy panels, IP65 rated", tag: "Outdoor", image: "/images/prod_5.webp" },
-  { icon: Layers, name: "Curtain / Mesh LED", description: "Semi-transparent for building facades and events", tag: "Specialty", image: "/images/prod_6.webp" },
-  { icon: Grid3x3, name: "Front Service LED", description: "Front-access maintenance for built-in wall installations", tag: "Indoor", image: "/images/prod_7.webp" },
-  { icon: Square, name: "Floor LED Display", description: "Load-bearing interactive floor screens, 1000kg/m² rated", tag: "Specialty", image: "/images/prod_8.webp" },
-  { icon: LayoutGrid, name: "Poster LED Display", description: "Slim standalone portrait LED for promotions", tag: "Indoor", image: "/images/prod_9.webp" },
-  { icon: Sparkles, name: "Transparent Glass LED", description: "See-through film or glass LED for storefronts", tag: "Specialty", image: "/images/prod_10.webp" },
-  { icon: CircleDot, name: "Perimeter LED Display", description: "Sports stadium perimeter advertising boards", tag: "Outdoor", image: "/images/prod_11.webp" },
-  { icon: Layers, name: "Curve LED Display", description: "Flexible curved screens for creative installations", tag: "Specialty", image: "/images/prod_12.webp" },
-  { icon: Globe, name: "Spherical LED Display", description: "360° globe displays for exhibitions and lobbies", tag: "Specialty", image: "/images/prod_13.png" },
-  { icon: Sparkles, name: "Creative Shape LED", description: "Any irregular shape — cylinders, letters, cubes", tag: "Specialty", image: "/images/prod_14.webp" },
-  { icon: Building, name: "Gas Price LED Display", description: "UAE petrol station price boards, RTA compliant", tag: "Niche", image: "/images/prod_15.webp" },
-  { icon: Car, name: "Taxi Rooftop LED", description: "Dubai taxi advertising, RTA-approved systems", tag: "Niche", image: "/images/prod_16.png" },
-  { icon: TrafficCone, name: "Traffic LED Display", description: "Road information, variable message signs", tag: "Niche", image: "/images/prod_17.webp" },
-  { icon: Monitor, name: "LCD Video Wall", description: "Seamless LCD panels for control rooms, lobbies, command centers", tag: "Indoor", image: "/images/prod_18.webp" },
-]
 
-const tagColors: Record<string, string> = {
-  Indoor: "bg-[var(--accent-light)] text-[var(--accent)]",
-  Outdoor: "bg-[#FEF3E2] text-[#B5722A]",
-  Specialty: "bg-[#F0F4F8] text-[#4A7BA7]",
-  Niche: "bg-[#F5F0E8] text-[#6B5D45]",
-}
 
-export function ProductsSection() {
-  const { ref, isVisible } = useReveal()
+import { Suspense } from "react"
+
+function ProductsSectionInner() {
+  const sectionRef = useRef<HTMLElement>(null)
+  const isInView = useInView(sectionRef, { once: true, margin: "-10% 0px" })
+  const searchParams = useSearchParams()
+  const initialCategory = searchParams.get("category") || categories[0].id
+  const initialSubcategory = searchParams.get("subcategory") || categories[0].subcategories[0].id
+
+  const [activeTab, setActiveTab] = useState(initialCategory)
+  const [activeSubTab, setActiveSubTab] = useState(initialSubcategory)
+  const [currentPage, setCurrentPage] = useState(1)
+
+  const [selectedProduct, setSelectedProduct] = useState<{name: string, subtitle: string, image: string} | null>(null)
+
+  // Update tabs if URL search params change
+  useEffect(() => {
+    const category = searchParams.get("category")
+    const subcategory = searchParams.get("subcategory")
+    if (category && categories.some(c => c.id === category)) {
+      setActiveTab(category)
+      const targetCat = categories.find(c => c.id === category)!
+      if (subcategory && targetCat.subcategories.some(s => s.id === subcategory)) {
+        setActiveSubTab(subcategory)
+      } else {
+        setActiveSubTab(targetCat.subcategories[0].id)
+      }
+      setCurrentPage(1)
+    }
+  }, [searchParams])
+
+  const activeCategory = categories.find(c => c.id === activeTab) || categories[0]
+  const activeSubcategory = activeCategory.subcategories.find(s => s.id === activeSubTab) || activeCategory.subcategories[0]
+
+
+
+  const itemsPerPage = 6;
+  const totalPages = Math.max(1, Math.ceil(activeSubcategory.products.length / itemsPerPage));
+  const paginatedProducts = activeSubcategory.products.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
   return (
     <section 
-      ref={ref}
+      ref={sectionRef}
       id="products" 
-      className={`section-padding bg-[var(--accent)] reveal-section ${isVisible ? "visible" : ""}`}
-      aria-label="LED Screen Products by Aztech UAE"
+      className="bg-white relative overflow-hidden min-h-[100svh] flex flex-col justify-center py-12 lg:py-0 scroll-mt-24"
     >
-      <div className="max-w-[var(--container-max)] mx-auto">
-        {/* Header */}
-        <div className="text-center mb-12">
-          <p className="eyebrow !text-white/80 mb-3">WHAT WE SUPPLY</p>
-          <h2 className="font-serif text-[clamp(2rem,3.5vw,3rem)] font-bold leading-[1.15] text-white mb-4">
-            <span className="font-sans">18</span> LED Screen Products For Every Need
+      {/* Subtle background glow */}
+      <div className="absolute top-0 right-0 w-[600px] h-[600px] bg-[var(--accent)] opacity-[0.03] blur-[150px] rounded-full pointer-events-none" />
+
+      <div className="max-w-[var(--container-max)] mx-auto px-[var(--section-pad-x)] relative z-10 w-full">
+        
+        {/* Massive Typography Header */}
+        <motion.div 
+          initial={{ opacity: 0, y: 20 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+          transition={{ duration: 0.8, ease: [0.16, 1, 0.3, 1] }}
+          className="mb-10 lg:mb-16"
+        >
+          <p className="font-sans text-[0.65rem] font-bold tracking-[0.25em] text-[var(--accent)] uppercase mb-4">
+            Our Technologies
+          </p>
+          <h2 className="font-serif text-[clamp(2.5rem,4vw,4rem)] font-medium text-[var(--text-primary)] leading-[1.05] tracking-tight max-w-4xl">
+            Engineered to <span className="text-[var(--text-muted)] italic">captivate.</span>
           </h2>
-          <p className="font-sans text-[1rem] leading-[1.75] text-white/70 max-w-[600px] mx-auto">
-            From poster-sized indoor displays to stadium-scale outdoor screens — we stock and supply the UAE&apos;s widest range of LED display products.
-          </p>
-        </div>
+        </motion.div>
 
-        {/* Products Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
-          {products.map((product, index) => (
-            <div 
-              key={`${product.name}-${index}`}
-              id={`product-${product.name.toLowerCase().replace(/[^a-z0-9]+/g, '-')}`}
-              style={{ scrollMarginTop: '100px' }}
-              className="group relative bg-white/5 flex flex-col rounded-[var(--radius-md)] overflow-hidden border border-white/10 hover:border-white/30 hover:bg-white/10 transition-all duration-300 shadow-[var(--shadow-card)]"
-            >
-              {/* Product Image */}
-              <div className="relative aspect-[4/3] overflow-hidden bg-white/10">
-                 <Image 
-                   src={product.image}
-                   alt={product.name}
-                   className="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                   loading="lazy"
-                   decoding="async"
-                   width={400}
-                   height={300}
-                   sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 25vw"
-                 />
-                 <div className="absolute top-3 right-3">
-                   <span className="inline-block font-sans text-[0.68rem] font-bold px-[10px] py-[3px] rounded-[var(--radius-full)] shadow-sm bg-white/15 text-white border border-white/10 backdrop-blur-sm">
-                     {product.tag}
-                   </span>
-                 </div>
-              </div>
-              
-              <div className="p-5 flex flex-col flex-1 text-center">
-                <div className="flex items-center justify-center gap-2 mb-2">
-                  <product.icon className="w-5 h-5 text-white/80 stroke-[1.5]" aria-hidden="true" />
-                  <h3 className="font-sans text-[1.05rem] font-semibold text-white">
-                    {product.name}
-                  </h3>
+        {/* Interactive Split Layout */}
+        <div className="flex flex-col lg:flex-row gap-12 lg:gap-20 items-start">
+          
+          {/* Left: Category Tabs */}
+          <div className="lg:w-[40%] flex flex-col w-full">
+            {categories.map((category, idx) => {
+              const isActive = activeTab === category.id
+              return (
+                <div key={category.id} className="border-t border-[var(--border-light)] last:border-b">
+                  <button
+                    onClick={() => {
+                      setActiveTab(category.id)
+                      setActiveSubTab(category.subcategories[0].id)
+                      setCurrentPage(1)
+                    }}
+                    className="w-full text-left py-5 lg:py-6 group"
+                  >
+                    <div className="flex items-start gap-4 lg:gap-6">
+                      <span className={`
+                        font-sans text-xs font-bold tracking-widest mt-1.5 transition-colors duration-500
+                        ${isActive ? 'text-[var(--accent)]' : 'text-[var(--text-muted)] opacity-50 group-hover:text-[var(--text-secondary)]'}
+                      `}>
+                        0{idx + 1}
+                      </span>
+                      <div className="flex-1">
+                        <h3 className={`
+                          font-serif text-[clamp(1.5rem,2.5vw,2.2rem)] font-light leading-tight transition-all duration-500
+                          ${isActive ? 'text-[var(--text-primary)]' : 'text-[var(--text-muted)] opacity-70 group-hover:text-[var(--text-secondary)]'}
+                        `}>
+                          {category.name}
+                        </h3>
+                        
+                        {/* Expandable Content */}
+                        <AnimatePresence initial={false}>
+                          {isActive && (
+                            <motion.div
+                              initial={{ height: 0, opacity: 0 }}
+                              animate={{ height: "auto", opacity: 1 }}
+                              exit={{ height: 0, opacity: 0 }}
+                              transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                              className="overflow-hidden"
+                            >
+                              <div className="pt-4 pb-1">
+                                <p className="font-sans text-[0.9rem] text-[var(--text-secondary)] leading-relaxed max-w-md">
+                                  {category.description}
+                                </p>
+                                <div className="mt-5">
+                                  <a 
+                                    href="#contact" 
+                                    className="inline-flex items-center gap-2 font-sans text-[0.65rem] font-bold tracking-[0.2em] uppercase text-[var(--text-primary)] hover:text-[var(--accent)] transition-colors"
+                                  >
+                                    <span className="w-6 h-[1px] bg-current" />
+                                    Explore Specs
+                                  </a>
+                                </div>
+                              </div>
+                            </motion.div>
+                          )}
+                        </AnimatePresence>
+                      </div>
+                    </div>
+                  </button>
                 </div>
-                
-                <p className="font-sans text-[0.88rem] text-white/70 line-clamp-2 mt-auto">
-                  {product.description}
-                </p>
-              </div>
-            </div>
-          ))}
-        </div>
+              )
+            })}
+          </div>
 
-        {/* CTA */}
-        <div className="text-center mt-12">
-          <p className="font-sans text-[0.9rem] text-white/70 mb-4">
-            Looking for a specific spec? Get a custom quote.
-          </p>
-          <a
-            href="#contact"
-            className="inline-flex items-center px-6 py-3 bg-white text-[var(--accent)] font-sans text-[0.9rem] font-semibold rounded-[var(--radius-sm)] hover:bg-[var(--accent-light)] hover:text-[var(--accent-dark-visible)] transition-all duration-200"
-          >
-            Request Custom Quote
-          </a>
+          {/* Right: Subcategory Tabs & Gallery */}
+          <div className="lg:w-[60%] w-full flex flex-col gap-6 mt-4 lg:mt-0">
+            
+            {/* Subcategory Navigation */}
+            {activeCategory.subcategories.length > 1 && (
+              <div className="flex flex-wrap gap-2 lg:gap-4 mb-2">
+                {activeCategory.subcategories.map((sub) => (
+                  <button
+                    key={sub.id}
+                    onClick={() => {
+                      setActiveSubTab(sub.id)
+                      setCurrentPage(1)
+                    }}
+                    className={`
+                      px-4 py-2 rounded-full font-sans text-[0.8rem] tracking-wide transition-all duration-300 border font-medium
+                      ${activeSubTab === sub.id 
+                        ? 'bg-[var(--accent)] text-white border-[var(--accent)] shadow-[0_0_15px_rgba(28,74,151,0.3)]' 
+                        : 'bg-white shadow-sm text-[var(--text-secondary)] border-[var(--border-light)] hover:border-[var(--border-medium)] hover:text-[var(--text-primary)]'}
+                    `}
+                  >
+                    {sub.name}
+                  </button>
+                ))}
+              </div>
+            )}
+
+            {/* Gallery */}
+            <AnimatePresence mode="wait">
+              <motion.div
+                key={activeSubTab}
+                initial={{ opacity: 0, y: 10, filter: "blur(2px)" }}
+                animate={{ opacity: 1, y: 0, filter: "blur(0px)" }}
+                exit={{ opacity: 0, y: -10, filter: "blur(2px)" }}
+                transition={{ duration: 0.4, ease: [0.16, 1, 0.3, 1] }}
+                className="grid grid-cols-2 gap-4 lg:gap-6"
+              >
+                {paginatedProducts.map((prod, idx) => (
+                  <div 
+                    key={`${prod.name}-${idx}`} 
+                    className="group flex flex-col gap-3 cursor-pointer"
+                    onClick={() => setSelectedProduct({ name: prod.name, subtitle: prod.subtitle || "", image: prod.image })}
+                  >
+                    <div className="relative aspect-video rounded-[16px] lg:rounded-[20px] overflow-hidden bg-white shadow-sm border border-[var(--border-light)] shadow-2xl flex items-center justify-center">
+                      <Image 
+                        src={prod.image}
+                        alt={prod.name}
+                        className="absolute inset-0 w-full h-full object-cover transition-transform duration-1000 ease-[0.16,1,0.3,1] group-hover:scale-105"
+                        width={600} 
+                        height={337}
+                        priority={idx < 4}
+                      />
+                      {/* Elegant dark gradient overlay to frame the image */}
+                      
+                    </div>
+                    
+                    <div className="flex items-start justify-between px-1">
+                       <div className="flex-1 pr-2">
+                         <h4 className="font-sans text-[0.95rem] font-medium text-[var(--text-primary)] tracking-wide">
+                           {prod.name}
+                         </h4>
+                         {/* @ts-ignore */}
+                         {prod.subtitle && (
+                           <p className="font-sans text-[0.65rem] text-[var(--text-secondary)] mt-1.5 uppercase tracking-widest leading-snug">
+                             {/* @ts-ignore */}
+                             {prod.subtitle}
+                           </p>
+                         )}
+                       </div>
+                       <div className="w-6 h-6 rounded-full border border-[var(--border-light)] flex items-center justify-center shrink-0 opacity-0 -translate-x-2 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-500 ease-[0.16,1,0.3,1] mt-0.5">
+                         <ArrowRight className="w-3 h-3 text-[var(--text-primary)]" />
+                       </div>
+                    </div>
+                  </div>
+                ))}
+              </motion.div>
+            </AnimatePresence>
+
+            {totalPages > 1 && (
+              <div className="flex items-center justify-center gap-2 mt-8">
+                <button 
+                  onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                  disabled={currentPage === 1}
+                  className="w-8 h-8 rounded-full border border-[var(--border-light)] flex items-center justify-center text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--border-medium)] disabled:opacity-30 disabled:pointer-events-none transition-colors"
+                >
+                  <ArrowRight className="w-4 h-4 rotate-180" />
+                </button>
+                
+                {Array.from({ length: totalPages }).map((_, i) => (
+                  <button
+                    key={i}
+                    onClick={() => setCurrentPage(i + 1)}
+                    className={`w-8 h-8 rounded-full text-sm font-medium transition-colors ${
+                      currentPage === i + 1 
+                        ? 'bg-[var(--accent)] text-[var(--text-primary)]' 
+                        : 'text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:bg-[var(--bg-tertiary)]'
+                    }`}
+                  >
+                    {i + 1}
+                  </button>
+                ))}
+
+                <button 
+                  onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                  disabled={currentPage === totalPages}
+                  className="w-8 h-8 rounded-full border border-[var(--border-light)] flex items-center justify-center text-[var(--text-secondary)] hover:text-[var(--text-primary)] hover:border-[var(--border-medium)] disabled:opacity-30 disabled:pointer-events-none transition-colors"
+                >
+                  <ArrowRight className="w-4 h-4" />
+                </button>
+              </div>
+            )}
+          </div>
+          
         </div>
       </div>
+
+      {/* Product Modal */}
+      <ProductModal 
+        product={selectedProduct ? (productDetails[selectedProduct.name] || null) : null}
+        fallbackName={selectedProduct?.name}
+        fallbackSubtitle={selectedProduct?.subtitle}
+        imageSrc={selectedProduct?.image || ""}
+        isOpen={!!selectedProduct}
+        onClose={() => setSelectedProduct(null)}
+      />
     </section>
+  )
+}
+
+export function ProductsSection() {
+  return (
+    <Suspense fallback={<div className="min-h-[100svh] bg-white flex items-center justify-center">Loading products...</div>}>
+      <ProductsSectionInner />
+    </Suspense>
   )
 }
